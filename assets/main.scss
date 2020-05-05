@@ -9,6 +9,55 @@ html, body {
     padding: 0 !important;
     margin: 0 !important;
     background-color: var(--lightgray-color) !important;
-    color: var(--dark-color) !important;
+    color: var(--black-color) !important;
     font: normal normal normal 18px/1.2 "Open Sans", "Arial", "Segoe UI", sans-serif !important;
+}
+ .content {
+    padding-bottom: 2em;
+}
+
+h1,h2,h3 {
+    font-family:"Open Sans", "Arial", "Segoe UI", sans-serif !important;
+}
+
+h1 {
+    color: var(--black-color);
+    font-size: 30px !important;
+}
+
+h2,h3,h4,h5,h6,legend,.legend {
+    color: var(--black-color);
+}
+
+h2,h3,legend,.legend {
+    font-size: 25px !important;
+}
+
+.legend {
+    position: relative;
+    display: inline-block;
+   
+}
+
+h1,
+h2 {
+    font-weight: 300;
+    margin-top: 60px !important;
+    margin-bottom: 30px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.padded {
+    padding: 0.5rem 0.5rem;
+}
+
+.relative {
+    position: relative;
 }
