@@ -1,43 +1,40 @@
 .highlighted-block {
-    background-color: #7dcdc8 !important;
-    border: 1px solid !important;
-    border-color: rgba(0, 0, 0, 0.7) !important;
-    color:var(--black-color)!important;
-    border-radius: 2px;
-  }
-  .tip {
-    background: #7dcdc8 !important;
-    border: 1px solid !important;
-      color:var(--black-color)!important;
-      border-radius: 2px;
-  }
- 
-  .editor-page  .header{
-      font-size: 30px !important;
-      color: var(--black-color) !important;
-      
-  }
- 
-  .hel-checkbox-group{
-    
-        font-size: 24px;
-        font-weight: 300;
-        background-color: #7dcdc8 !important;
-        border: 1px solid !important;
-        margin-top: 30px !important;
-        margin-bottom: 30px;
-        border-radius: 2px;
+  background-color: #7dcdc8 !important;
+  border: 1px solid !important;
+  border-color: rgba(0, 0, 0, 0.7) !important;
+  color: var(--black-color) !important;
+  border-radius: 2px;
+}
 
-        
-        
+.tip {
+  background: #7dcdc8 !important;
+  border: 1px solid !important;
+  color: var(--black-color) !important;
+  border-radius: 2px;
 }
+
+.editor-page .header {
+  font-size: 30px !important;
+  color: var(--black-color) !important;
+}
+
+.hel-checkbox-group {
+  font-size: 24px;
+  font-weight: 300;
+  background-color: #7dcdc8 !important;
+  border: 1px solid !important;
+  margin-top: 30px !important;
+  margin-bottom: 30px;
+  border-radius: 2px;
+}
+
 .row {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-.image-picker--preview{
-    color: var(--black-color);
-    background-color: var(--main-color)!important;
-    border: 1px solid !important;
-    border-radius: 2px;
-    
+
+.image-picker--preview {
+  color: var(--black-color);
+  background-color: var(--main-color) !important;
+  border: 1px solid !important;
+  border-radius: 2px;
 }
