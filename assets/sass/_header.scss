@@ -1,3 +1,33 @@
-.main-navbar, .helsinki-bar {
-  background: #7dcdc8 !important;
+
+
+
+.main-navbar .bar{
+    background: var(--black-color) !important;
+    height: 100px !important;
+  }
+  .linked-events-bar{
+    border-bottom:  1px solid !important;
+    color: var(--black-color);
+  }
+.navbar-brand{
+    color: var(--black-color)!important;
 }
+.main-navbar .linked-events-bar__links__create-events{
+    color: var(--black-color)!important;
+    border:none !important;
+    
+
+}
+.main-navbar .linked-events-bar__logo span{
+    color: var(--black-color)!important;
+    padding-left: 4.5rem;
+    padding-right: 0px !important;
+    font-size: 16px !important;
+  }
+  .btn:hover{
+    background-color:#7dcdc8 !important ;
+    color: var(--black-color)!important;
+    cursor: pointer;
+    border-radius: 0px;
+  }
+

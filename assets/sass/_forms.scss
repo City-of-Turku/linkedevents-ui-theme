@@ -1,17 +1,43 @@
 .highlighted-block {
-  box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.2), 5px 4px 2px 0px rgba(0, 0, 0, 0.14),
-    3px 5px 5px 3px rgba(0, 0, 0, 0.12) !important;
-  background-color: #7dcdc8 !important;
-  border: 2px solid !important;
-  border-color: rgba(0, 0, 0, 0.7) !important;
+    background-color: #7dcdc8 !important;
+    border: 1px solid !important;
+    border-color: rgba(0, 0, 0, 0.7) !important;
+    color:var(--black-color)!important;
+    border-radius: 2px;
+  }
+  .tip {
+    background: #7dcdc8 !important;
+    border: 1px solid !important;
+      color:var(--black-color)!important;
+      border-radius: 2px;
+  }
+ 
+  .editor-page  .header{
+      font-size: 30px !important;
+      color: var(--black-color) !important;
+      
+  }
+ 
+  .hel-checkbox-group{
+    
+        font-size: 24px;
+        font-weight: 300;
+        background-color: #7dcdc8 !important;
+        border: 1px solid !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px;
+        border-radius: 2px;
+
+        
+        
 }
-.tip {
-  background: rgba(125, 205, 200, 0.3) !important;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14),
-    0px 0px 4px 1px rgba(0, 0, 0, 0.3) !important;
+.row {
+    margin-bottom: 30px;
 }
-.button {
-  background-color: #7dcdc8 !important;
-  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
-    0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+.image-picker--preview{
+    color: var(--black-color);
+    background-color: var(--main-color)!important;
+    border: 1px solid !important;
+    border-radius: 2px;
+    
 }
