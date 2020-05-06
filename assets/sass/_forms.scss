@@ -26,6 +26,9 @@
   margin-top: 30px !important;
   margin-bottom: 30px;
   border-radius: 2px;
+  h2 {
+      margin-top: 10px !important;
+  }
 }
 
 .row {
@@ -37,4 +40,17 @@
   background-color: var(--main-color) !important;
   border: 1px solid !important;
   border-radius: 2px;
+}
+.btn-block{
+  color: var(--black-color)!important;
+  background-color:var(--main-color) !important;
+  margin-top: 20px !important;
+  font-size: 15.75px;
+  border-radius: 2px;
+  border-color: var(--black-color)!important;
+  border: 1px solid !important;
+  
+}
+.glyphicon{
+  margin-right:20px;
 }
