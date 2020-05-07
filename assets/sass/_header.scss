@@ -3,6 +3,13 @@
   height: 100px !important;
 }
 
+.bar.navbar {
+  .bar__logo {
+    background-image: url('./images/linkedeventswhite.png');
+    height: 80%;
+  }
+}
+
 .navbar {
   .btn:focus {
     color: var(--light-color);
@@ -11,16 +18,18 @@
     border: none !important;
     box-shadow: none !important;
   }
+  
   .btn:active {
     outline: solid 2px !important;
     outline-color: var(--light-color) !important;
     border: none !important;
     box-shadow: none !important;
   }
+
   .btn:hover {
     outline: solid 2px !important;
     outline-color: var(--light-color) !important;
-    background-color:  var(--light-color) !important ;
+    background-color: var(--light-color) !important ;
     color: var(--black-color) !important;
     cursor: pointer;
     border-radius: 0px;
@@ -30,11 +39,9 @@
   }
 }
 
-.main-navbar .linked-events-bar__links__list .btn{
+.main-navbar .linked-events-bar__links__list .btn {
   margin-right: 2rem;
 }
-
-
 
 .linked-events-bar {
   border-bottom: 1px solid !important;
@@ -44,7 +51,7 @@
     border: none !important;
     box-shadow: none !important;
   }
-  .btn:hover{
+  .btn:hover {
     outline-color: var(--black-color) !important;
     border: none !important;
     box-shadow: none !important;
