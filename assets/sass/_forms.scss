@@ -144,3 +144,24 @@
   
   }
   }
+
+  //copy buttons
+  .clipboard-copy-button {
+    padding: 3px;
+    position: absolute;
+    border-radius: 0px;
+    margin-right: -25px;
+    border-style: 1px solid !important;
+    box-shadow: none !important;
+    
+    
+}
+//helselect field
+.editor-page .hel-select legend, .editor-page .hel-select .legend{
+    font-size: 18px !important;
+  
+}
+.place-id{
+  margin-top: 20px!important;
+}
+
