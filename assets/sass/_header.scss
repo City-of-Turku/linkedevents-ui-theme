@@ -1,0 +1,83 @@
+.main-navbar .bar {
+  background: var(--black-color) !important;
+  height: 100px !important;
+}
+
+.bar.navbar {
+  .bar__logo {
+    background-image: url('./images/linkedeventswhite.png') !important;
+    height: 80% !important;
+  }
+}
+
+.navbar {
+  .btn:focus {
+    outline: solid 2px !important;
+    outline-color: var(--light-color) !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .btn:active {
+    outline: solid 2px !important;
+    outline-color: var(--light-color) !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .btn:hover {
+    outline: solid 2px !important;
+    outline-color: var(--light-color) !important;
+    background-color: var(--light-color) !important ;
+    color: var(--black-color) !important;
+    cursor: pointer;
+    border-radius: 0px !important;
+    .glyphicon {
+      color: var(--black-color) !important;
+    }
+  }
+}
+
+.main-navbar .linked-events-bar__links__list .btn {
+  margin-right: 2rem !important;
+}
+
+.linked-events-bar {
+  button {
+    background: none !important;
+  }
+  border-bottom: 1px solid !important;
+  color: var(--black-color) !important;
+  .btn:focus {
+    outline-color: var(--black-color) !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .btn:active {
+    outline-color: var(--light-color) !important;
+    background: none;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .btn:hover {
+    outline-color: var(--black-color) !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.navbar-brand {
+  color: var(--black-color) !important;
+}
+
+.main-navbar .linked-events-bar__links__create-events {
+  color: var(--black-color) !important;
+  border: none !important;
+}
+
+.main-navbar .linked-events-bar__logo span {
+  color: var(--black-color) !important;
+  padding-left: 4.5rem !important;
+  padding-right: 0px !important;
+  font-size: 16px !important;
+}
