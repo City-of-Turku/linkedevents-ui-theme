@@ -5,14 +5,13 @@
 
 .bar.navbar {
   .bar__logo {
-    background-image: url('./images/linkedeventswhite.png');
-    height: 80%;
+    background-image: url('./images/linkedeventswhite.png') !important;
+    height: 80% !important;
   }
 }
 
 .navbar {
   .btn:focus {
-    color: var(--light-color);
     outline: solid 2px !important;
     outline-color: var(--light-color) !important;
     border: none !important;
@@ -32,7 +31,7 @@
     background-color: var(--light-color) !important ;
     color: var(--black-color) !important;
     cursor: pointer;
-    border-radius: 0px;
+    border-radius: 0px !important;
     .glyphicon {
       color: var(--black-color) !important;
     }
@@ -40,14 +39,23 @@
 }
 
 .main-navbar .linked-events-bar__links__list .btn {
-  margin-right: 2rem;
+  margin-right: 2rem !important;
 }
 
 .linked-events-bar {
+  button {
+    background: none !important;
+  }
   border-bottom: 1px solid !important;
-  color: var(--black-color);
+  color: var(--black-color) !important;
   .btn:focus {
     outline-color: var(--black-color) !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .btn:active {
+    outline-color: var(--light-color) !important;
+    background: none;
     border: none !important;
     box-shadow: none !important;
   }
@@ -69,7 +77,7 @@
 
 .main-navbar .linked-events-bar__logo span {
   color: var(--black-color) !important;
-  padding-left: 4.5rem;
+  padding-left: 4.5rem !important;
   padding-right: 0px !important;
   font-size: 16px !important;
 }
