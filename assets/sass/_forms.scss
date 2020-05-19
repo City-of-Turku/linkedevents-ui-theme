@@ -1,167 +1,154 @@
 .highlighted-block {
-  background-color: #7dcdc8 !important;
+  background-color: var(--main-color) !important;
   border: 1px solid !important;
   border-color: rgba(0, 0, 0, 0.7) !important;
   color: var(--black-color) !important;
   border-radius: 2px;
 }
-
 .tip {
-  background: #7dcdc8 !important;
+  background: var(--main-color) !important;
   border: 1px solid !important;
   color: var(--black-color) !important;
   border-radius: 2px;
 }
-
 .editor-page .header {
   font-size: 30px !important;
   color: var(--black-color) !important;
 }
-
 .hel-checkbox-group {
   font-size: 24px;
   font-weight: 300;
-  background-color: #7dcdc8 !important;
+  background-color: var(--main-color) !important;
   border: 1px solid !important;
   margin-top: 30px !important;
   margin-bottom: 30px;
   border-radius: 2px;
   h2 {
-      margin-top: 10px !important;
+    margin-top: 10px !important;
   }
 }
-
 .row {
   margin-bottom: 30px;
 }
-
 .image-picker--preview {
   color: var(--black-color);
   background-color: var(--main-color) !important;
   border: 1px solid !important;
   border-radius: 2px;
 }
-//ImagePicker/ file-upload buttons
-.file-upload--external{
-.button-row .edit{
-  background-color:#7dcdc8 !important;
-  border-radius: 2px;
-  font-size: 18px !important;
-  color: var(--black-color);
-  border-color: var(--black-color)!important;
-}
-.btn-primary{
-   background-color:#7dcdc8 !important;
-  border-radius: 2px;
-  font-size: 18px !important;
-  color: var(--black-color);
-   border-color: var(--black-color)!important;
-   margin-top: 0px!important;
-   }
-}
- .wrapper-right{
-  .btn-primary{
-     background-color:#7dcdc8 !important;
-     border-radius: 2px;
-     font-size: 18px !important;
-    color: var(--black-color);
-     border-color: var(--black-color)!important;
-     margin-top: 0px!important;
-    }
-    .btn-secondary{
-      background-color:#7dcdc8 !important;
-      border-radius: 2px;
-      font-size: 18px !important;
-      color: var(--black-color);
-       border-color: var(--black-color)!important;
-       margin-top: 0px!important;
-    }
-   .button-row{
-    .btn-secondary{
-      background-color:#7dcdc8 !important;
-      border-radius: 2px;
-      font-size: 18px !important;
-      color: var(--black-color);
-       border-color: var(--black-color)!important;
-       margin-top: 0px!important;
-    }
-   
-   }
-}
-.button-row{
-  .delete{
-    background-color:#7dcdc8 !important;
+
+// ImagePicker/ File-upload buttons
+.file-upload--external {
+  .button-row .edit {
+    background-color: var(--main-color) !important;
     border-radius: 2px;
     font-size: 18px !important;
     color: var(--black-color);
-     border-color: var(--black-color)!important;
-     margin-top: 0px!important;
+    border-color: var(--black-color) !important;
   }
-
-}
-.file-upload--new{
-  .btn-secondary{
-    background-color:#7dcdc8 !important;
+  .btn-primary {
+    background-color: var(--main-color) !important;
     border-radius: 2px;
     font-size: 18px !important;
     color: var(--black-color);
+    border-color: var(--black-color) !important;
+    margin-top: 0px !important;
+  }
 }
+.wrapper-right {
+  .btn-primary {
+    background-color: var(--main-color) !important;
+    border-radius: 2px;
+    font-size: 18px !important;
+    color: var(--black-color);
+    border-color: var(--black-color) !important;
+    margin-top: 0px !important;
+  }
+  .btn-secondary {
+    background-color: var(--main-color) !important;
+    border-radius: 2px;
+    font-size: 18px !important;
+    color: var(--black-color);
+    border-color: var(--black-color) !important;
+    margin-top: 0px !important;
+  }
+  .button-row {
+    .btn-secondary {
+      background-color: var(--main-color) !important;
+      font-size: 18px !important;
+      color: var(--black-color);
+      border-color: var(--black-color) !important;
+      margin-top: 0px !important;
+    }
+  }
 }
-.image-edit-block .btn{
-  color: var(--black-color)!important;
-  background-color:var(--main-color) !important;
+.button-row {
+  .delete {
+    background-color: var(--main-color) !important;
+    font-size: 18px !important;
+    color: var(--black-color);
+    border-color: var(--black-color) !important;
+    margin-top: 0px !important;
+  }
+}
+.file-upload--new {
+  .btn-secondary {
+    background-color: var(--main-color) !important;
+    font-size: 18px !important;
+    color: var(--black-color);
+  }
+}
+.image-edit-block .btn {
+  color: var(--black-color) !important;
+  background-color: var(--main-color) !important;
   margin-top: 20px !important;
   font-size: 18px !important;
-  border-radius: 2px;
-  border-color: var(--black-color)!important;
+  border-color: var(--black-color) !important;
   border: 1px solid !important;
 }
-  
-//formfields
-.btn-block{
-  color: var(--black-color)!important;
-  background-color:var(--main-color) !important;
-  margin-top: 20px !important;
-  font-size: 18px !important;
-  border-radius: 2px;
-  border-color: var(--black-color)!important;
-  border: 1px solid !important;
-}
-.glyphicon{
-  margin-right:20px;
-}
-//SEARCHBAR BUTTON
-.search-bar--input{
-  .btn{
-  background-color:var(--main-color) !important;
-  margin-left: 18px;
-  height:55px;
-  border-radius: 2px;
-  color:var(--black-color);
-  border-color: var(--black-color)!important;
-  border: 1px solid !important;
-  font-size: 18px;
-  
-  }
-  }
 
-  //copy buttons
-  .clipboard-copy-button {
-    padding: 3px;
-    position: absolute;
-    border-radius: 0px;
-    margin-right: -25px;
-    border-style: 1px solid !important;
-    box-shadow: none !important;
-    
-    
+// Formfields
+.btn-block {
+  color: var(--black-color) !important;
+  background-color: var(--main-color) !important;
+  margin-top: 20px !important;
+  font-size: 18px !important;
+  border-color: var(--black-color) !important;
+  border: 1px solid !important;
 }
+.glyphicon {
+  margin-right: 20px;
+}
+
+//Search bar buttons
+.search-bar--input {
+  .btn {
+    background-color: var(--main-color) !important;
+    margin-left: 18px;
+    height: 55px;
+    border-radius: 2px;
+    color: var(--black-color);
+    border-color: var(--black-color) !important;
+    border: 1px solid !important;
+    font-size: 18px;
+  }
+}
+
+// Copy buttons
+.clipboard-copy-button {
+  padding: 3px;
+  position: absolute;
+  border-radius: 0px;
+  margin-right: -25px;
+  border-style: 1px solid !important;
+  box-shadow: none !important;
+}
+
 //helselect field
-.editor-page .hel-select legend, .editor-page .hel-select .legend{
-    font-size: 18px !important;
-  
+.editor-page .hel-select legend,
+.editor-page .hel-select .legend {
+  font-size: 18px !important;
 }
-.place-id{
-  margin-top: 20px!important;
+.place-id {
+  margin-top: 20px !important;
 }
-

@@ -1,0 +1,35 @@
+// Event management page.
+.event-actions {
+  .btn-secondary {
+    display: inline;
+    background-color: var(--main-color) !important;
+    color: var(--black-color);
+    border-color: var(--black-color) !important;
+    margin: 0.3vh;
+    &:hover {
+      background-color: var(--light-color) !important;
+    }
+  }
+}
+.cancel-delete-btn {
+  .btn {
+    &:hover,
+    &:focus {
+      background-color: var(--danger-color) !important;
+    }
+  }
+}
+
+// Create event page
+.buttons-group {
+  .btn-secondary {
+    display: inline;
+    background-color: var(--main-color) !important;
+    color: var(--black-color);
+    border-color: var(--black-color) !important;
+    margin: 0.3vh;
+    &:hover {
+      background-color: var(--light-color) !important;
+    }
+  }
+}
