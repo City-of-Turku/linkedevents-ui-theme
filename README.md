@@ -5,16 +5,13 @@ Linked events UI theme support for municipality specific components
 Get the experimental branch from City-of-Turku github, https://github.com/City-of-Turku/linkedevents-ui/tree/experimental/city-theme
 
 ## Configuration
-Once you have this branch and the experimental branch from City-of-Turku, you will need to:
-```Yarn link``` the branches together. 
-Example: 
+In your Linkedevents-Ui, you:
 ```
-cd linkedevents-ui
-yarn link city_theme
+yarn add city_theme
 ```
 
 ## Startup
-To start your experimental linkedevents-ui-turku: make a copy of your config_dev.json.example and name it config_dev.json. Inside, set
+To start your experimental linkedevents-ui: make a copy of your config_dev.json.example and name it config_dev.json. Inside, set
 ```"city_theme": "city_theme"```, then:
 ```
 yarn
