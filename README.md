@@ -6,14 +6,10 @@ Get the experimental branch from City-of-Turku github, https://github.com/City-o
 
 ## Configuration
 Once you have this branch and the experimental branch from City-of-Turku, you will need to:
-```Yarn add``` and ```Yarn link``` the branches together. 
+```Yarn link``` the branches together. 
 Example: 
 ```
-cd linkedevents-ui-theme
-yarn link
-cd ..
 cd linkedevents-ui
-yarn add ../linkedevents-ui-theme (../ used since it's local and not an npm package)
 yarn link city_theme
 ```
 
