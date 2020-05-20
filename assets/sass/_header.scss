@@ -1,3 +1,4 @@
+// Main navbar
 .main-navbar .bar {
   background: var(--black-color) !important;
   height: 100px !important;
@@ -9,10 +10,19 @@
 
 .navbar {
   .btn {
+    border-radius: 0;
+    .glyphicon {
+      color: var(--light-color) !important;
+    }
     &:focus,
     &:active {
+      background-color: var(--light-color);
+      color: var(--black-color) !important;
       outline: solid 2px !important;
       outline-color: var(--light-color) !important;
+      .glyphicon {
+        color: var(--black-color) !important;
+      }
     }
     &:hover {
       outline: solid 2px !important;
@@ -26,6 +36,7 @@
   }
 }
 
+// Routing / Link buttons
 .linked-events-bar {
   border-bottom: 1px solid !important;
   .btn {
@@ -33,11 +44,15 @@
     background: none !important;
     &:focus, &:hover {
       outline-color: var(--black-color) !important;
+      box-shadow: none !important;
     }
     &:active {
       outline-color: var(--black-color) !important;
       border: none !important;
       box-shadow: none !important;
+    }
+    .glyphicon {
+      color: var(--black-color) !important;
     }
   }
 }
@@ -54,6 +69,5 @@
 .main-navbar .linked-events-bar__logo span {
   color: var(--black-color) !important;
   padding-left: 4.5rem !important;
-  padding-right: 0px !important;
   font-size: 16px !important;
 }
