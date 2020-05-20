@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+
 @import 'colors';
 @import 'sass/header';
 @import 'sass/buttons';
@@ -29,12 +30,14 @@ h1 {
 h2, h3, h4, h5, h6, legend,
 .legend {
     color: var(--black-color);
+
 }
 
 h2, h3, legend,
 .legend {
     font-size: 25px !important;
     font-family: 'Open Sans', 'Arial', 'Segoe UI', sans-serif !important;
+
 }
 
 h1, h2 {
