@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
-@import "colors";
-@import "sass/header";
-@import "sass/forms";
+
+@import 'colors';
+@import 'sass/header';
+@import 'sass/buttons';
+@import 'sass/editor';
 
 html, body {
     width: 100% !important;
@@ -9,14 +11,15 @@ html, body {
     margin: 0 !important;
     background-color: var(--lightgray-color) !important;
     color: var(--black-color) !important;
-    font: normal normal normal 18px/1.2 "Open Sans", "Arial", "Segoe UI", sans-serif !important;
+    font: normal normal normal 18px/1.2 'Open Sans', 'Arial', 'Segoe UI', sans-serif !important;
 }
- .content {
+
+.content {
     padding-bottom: 2em;
 }
 
-h1,h2,h3 {
-    font-family:"Open Sans", "Arial", "Segoe UI", sans-serif !important;
+h1, h2, h3 {
+    font-family: 'Open Sans', 'Arial', 'Segoe UI', sans-serif !important;
 }
 
 h1 {
@@ -24,40 +27,21 @@ h1 {
     font-size: 30px !important;
 }
 
-h2,h3,h4,h5,h6,legend,.legend {
-    color: var(--black-color);
-}
-
-h2,h3,legend,.legend {
-    font-size: 25px !important;
-    font-family:"Open Sans", "Arial", "Segoe UI", sans-serif !important;
-}
-
+h2, h3, h4, h5, h6, legend,
 .legend {
-    position: relative;
-    display: inline-block;
-   
+    color: var(--black-color);
+
 }
 
-h1,
-h2 {
+h2, h3, legend,
+.legend {
+    font-size: 25px !important;
+    font-family: 'Open Sans', 'Arial', 'Segoe UI', sans-serif !important;
+
+}
+
+h1, h2 {
     font-weight: 300;
     margin-top: 60px !important;
     margin-bottom: 30px;
-}
-
-.pull-left {
-    float: left;
-}
-
-.pull-right {
-    float: right;
-}
-
-.padded {
-    padding: 0.5rem 0.5rem;
-}
-
-.relative {
-    position: relative;
 }
