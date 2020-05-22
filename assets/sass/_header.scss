@@ -39,6 +39,9 @@
 // Routing / Link buttons
 .linked-events-bar {
   border-bottom: 1px solid !important;
+  .moderator {
+    color: var(--black-color) !important;
+  }
   .btn {
     outline-width: 2px;
     background: none !important;
