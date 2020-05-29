@@ -13,6 +13,6 @@ You can ```yarn link``` the project into your linkedevents-ui, to test styles lo
 //in your linkedevents-ui-theme:
 yarn link
 
-//in your linkedevents-ui
+//in your linkedevents-ui:
 yarn link city_theme
 ```
