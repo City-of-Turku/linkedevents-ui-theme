@@ -58,6 +58,20 @@
     border-radius: 0 !important;
   }
 }
+.image-picker--dialog {
+  .modalH1 {
+      background-color: var(--black-color)!important;
+      .modal-title {
+        color: var(--light-color) !important;
+        font-weight: bold;
+      }
+      .glyphicon {
+          margin: 0px;
+          color: var(--light-color)!important;
+      }
+  }
+}
+
 .file-upload--external {
   .btn-primary {
     background-color: var(--main-color) !important;
@@ -87,6 +101,16 @@
     font-size: 18px !important;
     color: var(--black-color);
   }
+}
+//ImageThumbnail
+.image-thumb.selected {
+  border: 4px solid var(--black-color) !important;
+}
+.thumbnail {
+  background-color: var(--main-color) !important;
+}
+.no-image-text {
+  font-size: 24px !important;
 }
 
 // Formfields
