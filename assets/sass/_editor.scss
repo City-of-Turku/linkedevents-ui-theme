@@ -40,6 +40,17 @@
         border-color: var(--main-color);
       }
     }
+    textarea {
+      &:hover {
+        border: solid 3px;
+        border-color: var(--main-color);
+      }
+      &:focus,
+      &:active {
+        border: solid 4px;
+        border-color: var(--main-color);
+      }
+    }
   }
 }
 
