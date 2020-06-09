@@ -112,6 +112,21 @@
 .no-image-text {
   font-size: 24px !important;
 }
+// ImageEdit
+.image-edit-dialog {
+  .modal-header {
+    background-color: var(--black-color) !important;
+    .modal-title {
+      font-weight: bold !important;
+      color: var(--light-color)!important;
+    }
+      button {
+      .glyphicon {
+          color: var(--light-color) !important;
+      }
+    }
+  }
+}
 
 // Formfields
 .btn-block {
