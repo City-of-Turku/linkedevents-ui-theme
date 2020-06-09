@@ -5,7 +5,8 @@
 @import 'sass/buttons';
 @import 'sass/editor';
 
-html, body {
+html,
+body {
     width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
@@ -18,7 +19,9 @@ html, body {
     padding-bottom: 2em;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Open Sans', 'Arial', 'Segoe UI', sans-serif !important;
 }
 
@@ -27,7 +30,12 @@ h1 {
     font-size: 30px !important;
 }
 
-h2, h3, h4, h5, h6, legend,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend,
 .legend {
     color: var(--black-color);
 }
