@@ -70,6 +70,10 @@
   color: var(--black-color) !important;
   background-color: var(--main-color) !important;
 }
+.react-datepicker__time-list-item--selected {
+  color: var(--black-color) !important;
+  background-color: var(--main-color) !important;
+}
 
 .search-bar {
   .event-input {
