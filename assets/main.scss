@@ -16,7 +16,7 @@ body {
 }
 
 .content {
-    padding-bottom: 2em;
+    padding-bottom: 0 !important;
 }
 
 h1,
@@ -38,4 +38,8 @@ h6,
 legend,
 .legend {
     color: var(--black-color);
+}
+
+.footer-logo {
+    background-image: url('./images/linkedeventswhite.png') !important;
 }
