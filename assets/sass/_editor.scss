@@ -54,6 +54,27 @@
   }
 }
 
+// Calendar Input
+.custom-date-input {
+  input {
+    &:hover,
+    &:focus,
+    &:active {
+      border-color: var(--main-color) !important;
+    }
+  }
+}
+
+// Calendar Date Select
+.react-datepicker__day--selected {
+  color: var(--black-color) !important;
+  background-color: var(--main-color) !important;
+}
+.react-datepicker__time-list-item--selected {
+  color: var(--black-color) !important;
+  background-color: var(--main-color) !important;
+}
+
 .search-bar {
   .event-input {
     input {
@@ -109,7 +130,6 @@
     margin-top: 0px !important;
   }
 }
-
 .file-upload--new {
   .btn-secondary {
     background-color: var(--main-color) !important;
