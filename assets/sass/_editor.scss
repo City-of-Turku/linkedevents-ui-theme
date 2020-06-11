@@ -109,20 +109,6 @@
   }
 }
 
-.image-picker--dialog {
-  .modalH1 {
-      background-color: var(--black-color)!important;
-      .modal-title {
-        color: var(--light-color) !important;
-        font-weight: bold;
-      }
-      .glyphicon {
-          margin: 0px;
-          color: var(--light-color)!important;
-      }
-  }
-}
-
 .file-upload--external {
   .btn-primary {
     background-color: var(--main-color) !important;
@@ -171,7 +157,7 @@
       font-weight: bold !important;
       color: var(--light-color)!important;
     }
-      button {
+    button {
       .glyphicon {
           color: var(--light-color) !important;
       }
@@ -212,18 +198,16 @@
       font-weight: bold !important;
       color: var(--light-color)!important;
     }
-      button {
+    button {
       .glyphicon {
-          color: var(--light-color) !important;
+        color: var(--light-color) !important;
       }
     }
   }
-
   .modal-body {
     .row-color {
       background: var(--main-color) !important;
-      border-color: var(--black-color) !important;
-      border: 1px solid !important;
+      border: 1px solid var(--black-color) !important;
     }
     .col-sm-12 {
       h2 {
@@ -234,6 +218,20 @@
         color: var(--light-color);
         border: none;
       }
+    }
+  }
+}
+
+.image-picker--dialog {
+  .modalH1 {
+    background-color: var(--black-color)!important;
+    .modal-title {
+      color: var(--light-color) !important;
+      font-weight: bold;
+    }
+    .glyphicon {
+      margin: 0px;
+      color: var(--light-color)!important;
     }
   }
 }
