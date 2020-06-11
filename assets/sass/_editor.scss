@@ -20,11 +20,19 @@
   .checkbox-group {
     background-color: var(--main-color) !important;
     border: 1px solid !important;
-    margin-top: 30px !important;
-    margin-bottom: 30px;
-    h2 {
-      margin-top: 10px !important;
+    margin-top: 5px !important;
+    margin-bottom: 30px !important;
+    legend {
+      font-weight: 500 !important;
+      font-family: inherit !important;
     }
+  }
+  h1 {
+    font-size: 32px !important;
+  }
+  .event-heading, h2 {
+    font-size: 28px !important;
+    margin-bottom: 0 !important;
   }
   .event-input {
     input {
@@ -51,6 +59,9 @@
         border-color: var(--main-color);
       }
     }
+  }
+  .editor-action-buttons {
+    padding-top: 0 !important;
   }
 }
 
@@ -233,5 +244,22 @@
       margin: 0px;
       color: var(--light-color)!important;
     }
+  }
+}
+
+//multifield titles
+.multi-field {
+  position: relative;
+  margin-top: 2rem;
+
+  .indented {
+      padding: 3px 23px 11.5px 23px;
+      border-left: 5px solid #d8f0ee !important;
+
+      & > label {
+          color: var(--black-color) !important;
+          font-size: 24px !important;
+          font-weight: 600;
+      }
   }
 }
