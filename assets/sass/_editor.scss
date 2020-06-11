@@ -26,7 +26,7 @@
       margin-top: 10px !important;
     }
   }
-  .form-group {
+  .event-input {
     input {
       border: solid 2px;
       border-radius: 3px;
@@ -38,6 +38,56 @@
       &:active {
         border: solid 4px;
         border-color: var(--main-color);
+      }
+    }
+    textarea {
+      &:hover {
+        border: solid 3px;
+        border-color: var(--main-color);
+      }
+      &:focus,
+      &:active {
+        border: solid 4px;
+        border-color: var(--main-color);
+      }
+    }
+  }
+}
+
+// Calendar Input
+.custom-date-input {
+  input {
+    &:hover,
+    &:focus,
+    &:active {
+      border-color: var(--main-color) !important;
+    }
+  }
+}
+
+// Calendar Date Select
+.react-datepicker__day--selected {
+  color: var(--black-color) !important;
+  background-color: var(--main-color) !important;
+}
+.react-datepicker__time-list-item--selected {
+  color: var(--black-color) !important;
+  background-color: var(--main-color) !important;
+}
+
+.search-bar {
+  .event-input {
+    input {
+      border: solid 2px;
+      border-radius: 3px;
+      &:hover {
+        border: solid 3px;
+        border-color: var(--main-color) !important;
+      }
+      &:focus,
+      &:active {
+        border: solid 4px;
+        border-color: var(--main-color) !important;
       }
     }
   }
@@ -58,6 +108,7 @@
     border-radius: 0 !important;
   }
 }
+
 .image-picker--dialog {
   .modalH1 {
       background-color: var(--black-color)!important;

@@ -11,6 +11,7 @@
     }
   }
 }
+
 .cancel-delete-btn {
   .btn {
     &:hover,
@@ -32,6 +33,12 @@
       background-color: var(--light-color) !important;
     }
   }
+}
+
+// Calendar Button
+.custom-date-input__button {
+  color: var(--black-color) !important;
+  background-color: var(--main-color) !important;
 }
 
 // Copy buttons
