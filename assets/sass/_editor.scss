@@ -176,7 +176,28 @@
     }
   }
 }
-
+//ConfirmationModal app.js
+.ConfirmationModal {
+  .modal-header {
+    background-color: var(--black-color) !important;
+    .modal-title {
+      font-weight: bold !important;
+      color: var(--light-color)!important;
+    }
+    button {
+      .glyphicon {
+          color: var(--light-color) !important;
+      }
+    }
+  }
+  .modal-footer {
+    button {
+      background-color: var(--main-color) !important;
+      font-size: 18px !important;
+      color: var(--black-color);
+    }
+  }
+}
 // Formfields
 .btn-block {
   color: var(--black-color) !important;
