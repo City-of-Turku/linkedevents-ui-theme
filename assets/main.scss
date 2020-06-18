@@ -38,3 +38,11 @@ h2, h3, h4, h5, h6, legend,
 .red-alert {
     color: var(--darkdanger-color) !important;
 }
+
+.validation-popper {
+    background-color: var(--dark-color) !important;
+    box-shadow: 0px 6px 20px -10px rgba(0,0,0,0.75);
+    &:before {
+        border-color: transparent var(--dark-color) transparent transparent !important;
+    }
+}
