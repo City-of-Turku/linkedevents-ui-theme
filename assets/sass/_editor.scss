@@ -263,11 +263,32 @@
       font-weight: bold;
     }
     .glyphicon {
-      margin: 0px;
       color: var(--light-color)!important;
     }
   }
 }
+//Preview Modal to check how event would look like while creating / editing
+.previewModal {
+  .modal-header {
+    background-color: var(--black-color)!important;
+      .modal-title {
+        color: var(--light-color) !important;
+      }
+
+      .glyphicon {
+          margin: 0px;
+          color: var(--light-color)!important;
+      }
+    }
+    .modal-footer {
+      .btn-secondary {
+        background-color: var(--main-color) !important;
+        font-size: 18px !important;
+        color: var(--black-color);
+      }
+    }
+  }
+
 
 // Multifield titles
 .multi-field {
