@@ -68,9 +68,6 @@ h2, h3, h4, h5, h6, legend,
         max-width: 100% !important;
         flex: none;
     }
-    .language-selection {
-        display: contents !important;
-    }
     .highlighted-block {
         label {
             line-height: 2.25 !important;
@@ -78,5 +75,10 @@ h2, h3, h4, h5, h6, legend,
     }
     .image-picker {
         height: 80% !important;
+    }
+}
+@media (max-width: 768px) {
+    .language-selection {
+        display: contents !important;
     }
 }
