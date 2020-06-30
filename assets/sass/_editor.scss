@@ -5,6 +5,9 @@
     border: 1px solid !important;
     color: var(--black-color) !important;
     max-width: auto !important;
+    .language-selection {
+      font-size: 1.125em !important;
+    }
     label {
       font-size: 1em !important;
       &:last-child {
