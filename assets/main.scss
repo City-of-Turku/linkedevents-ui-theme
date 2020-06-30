@@ -62,3 +62,21 @@ h2, h3, h4, h5, h6, legend,
         border-color: transparent var(--dark-color) transparent transparent !important;
     }
 }
+
+@media (max-width: 991px) {
+    .col-sm-6, .col-sm-5 {
+        max-width: 100% !important;
+        flex: none;
+    }
+    .language-selection {
+        display: contents !important;
+    }
+    .highlighted-block {
+        label {
+            line-height: 2.25 !important;
+        }
+    }
+    .image-picker {
+        height: 80% !important;
+    }
+}
