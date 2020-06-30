@@ -12,7 +12,7 @@ html, body {
     margin: 0 !important;
     background-color: var(--lightgray-color) !important;
     color: var(--black-color) !important;
-    font: normal normal normal 18px/1.2 'Open Sans', 'Arial', 'Segoe UI', sans-serif !important;
+    font: normal normal normal 1em/1.2 'Open Sans', 'Arial', 'Segoe UI', sans-serif !important;
 }
 
 .content {
@@ -20,13 +20,29 @@ html, body {
     margin-block-start: 0.5em !important;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p, legend {
     font-family: 'Open Sans', 'Arial', 'Segoe UI', sans-serif !important;
 }
 
 h1 {
     color: var(--black-color);
-    font-size: 30px !important;
+    font-size: 2em !important;
+}
+
+h2 {
+    font-size: 1.8em !important;
+}
+
+h3 {
+    font-size: 1.5em !important;
+}
+
+legend {
+    font-size: 1.7em !important;
+}
+
+p {
+    font-size: 1em !important;
 }
 
 h2, h3, h4, h5, h6, legend,
