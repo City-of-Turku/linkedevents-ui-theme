@@ -224,7 +224,18 @@
 .glyphicon {
   margin-right: 20px;
 }
-
+@media (max-width:760px) {
+.location-row {
+  .clipboard-copy-button {
+    display: none !important;
+  }
+}
+.keyword-row {
+  .clipboard-copy-button {
+    display: none !important;
+  }
+}
+}
 // Helselect field
 .editor-page .hel-select legend,
 .editor-page .hel-select .legend {
