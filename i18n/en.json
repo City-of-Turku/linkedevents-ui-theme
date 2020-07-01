@@ -2,5 +2,7 @@
     "footer-city": "© City of Turku",
     "footer-city1": "PO 355, 20101 Turku",
     "footer-city2": "phone (02) 330 000",
-    "footer-city3": "www.turku.fi"
+    "footer-city3": "www.turku.fi",
+
+    "editor-tip-location-not-found": "If the exact venue is not found in the list, select the nearest street address as the venue and enter the name of the venue or other detailed arrival instructions in the additional information field."
 }
