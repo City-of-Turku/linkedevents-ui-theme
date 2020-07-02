@@ -4,6 +4,9 @@
     "footer-city2": "phone (02) 330 000",
     "footer-city3": "www.turku.fi",
 
+
+    "editor-tip-location-not-found": "If the exact venue is not found in the list, select the nearest street address as the venue and enter the name of the venue or other detailed arrival instructions in the additional information field.",
+
     "organization-missing-message-contact1": "Matias Peltonen "
 
 }
