@@ -248,6 +248,11 @@
   }
 }
 //DebugHelper
+#debughelper {
+  .glyphicon {
+    margin-right: 0px !important;
+  }
+}
 .debugreporterform {
   .modal-header {
     background-color: var(--black-color) !important;
