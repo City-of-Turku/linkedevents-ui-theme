@@ -261,6 +261,19 @@
       color: var(--light-color) !important;
   }
   .modal-body {
+    #reportfield{
+      border: solid 2px;
+      border-radius: 3px;
+      &:hover {
+        border: solid 3px;
+        border-color: var(--main-color);
+      }
+      &:focus,
+      &:active {
+        border: solid 4px;
+        border-color: var(--main-color);
+      }
+    }
   .btn {
     background-color: var(--main-color) !important;
     font-size: 1em !important;
