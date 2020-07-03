@@ -4,6 +4,8 @@
 @import 'sass/header';
 @import 'sass/buttons';
 @import 'sass/editor';
+@import 'sass/footer';
+
 
 html, body {
     width: 100% !important;
@@ -11,37 +13,100 @@ html, body {
     margin: 0 !important;
     background-color: var(--lightgray-color) !important;
     color: var(--black-color) !important;
-    font: normal normal normal 18px/1.2 'Open Sans', 'Arial', 'Segoe UI', sans-serif !important;
+    font: normal normal normal 1em/1.2 'Open Sans', 'Arial', 'Segoe UI', sans-serif !important;
 }
 
 .content {
-    padding-bottom: 2em;
+    padding-bottom: 0 !important;
+    margin-block-start: 0.5em !important;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p, legend {
     font-family: 'Open Sans', 'Arial', 'Segoe UI', sans-serif !important;
 }
 
 h1 {
     color: var(--black-color);
-    font-size: 30px !important;
+    font-size: 2em !important;
+}
+
+h2 {
+    font-size: 1.8em !important;
+}
+
+h3 {
+    font-size: 1.5em !important;
+}
+
+legend {
+    font-size: 1.7em !important;
+}
+
+p {
+    font-size: 1em !important;
 }
 
 h2, h3, h4, h5, h6, legend,
 .legend {
+    margin-block-start: 0.5em !important;
     color: var(--black-color);
-
 }
 
-h2, h3, legend,
-.legend {
-    font-size: 25px !important;
-    font-family: 'Open Sans', 'Arial', 'Segoe UI', sans-serif !important;
-
+.red-alert {
+    color: var(--darkdanger-color) !important;
 }
 
-h1, h2 {
-    font-weight: 300;
-    margin-top: 60px !important;
-    margin-bottom: 30px;
+.validation-popper {
+    background-color: var(--dark-color) !important;
+    box-shadow: 0px 6px 20px -10px rgba(0,0,0,0.75);
+    &:before {
+        border-color: transparent var(--dark-color) transparent transparent !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .col-sm-6, .col-sm-5 {
+        max-width: 100% !important;
+        flex: none;
+    }
+    .image-picker {
+        height: 80% !important;
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        margin-top: 1em !important;
+        margin-bottom: 0em !important;
+        padding-top: 0 !important;
+    }
+    .editor-page {
+        h2 {
+            padding-top: 0 !important;
+            padding-bottom: 0.5em !important;
+            margin-top: 0 !important;
+        }
+    }
+    .modal-content {
+        .image-picker--dialog-title {
+            .modal-title {
+                padding: 1em 0 1em 0 !important;
+                margin: auto;
+            }
+        }
+        h1 {
+            padding-bottom: 0 !important;
+        }
+        h2 {
+            padding-top: 0.8em !important;
+            padding-bottom: 0 !important;
+        }
+    }
+    .editor-action-buttons {
+        height: 180px !important;
+    }
+    .organization-missing-msg {
+        h1 {
+            margin-top: 0rem !important;
+        }
+    }
 }

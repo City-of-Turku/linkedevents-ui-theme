@@ -1,19 +1,19 @@
 # linkedevents-ui-theme
-Linked events UI theme support for municipality specific components
+Linked events UI theme support for municipality specific styling for components.
 
 ## Installation
-Get the experimental branch from City-of-Turku github, https://github.com/City-of-Turku/linkedevents-ui/tree/experimental/city-theme
+This is a npm package which is used in https://github.com/City-of-Turku/linkedevents-ui, remove/replace city_theme in package.json with  your own package, as well as change ```"city_theme": false``` within config_dev.json with your own variable. e.g: 
+```
+"city_theme": "city_theme"
+```
 
 ## Configuration
-In your Linkedevents-Ui, you:
+You can ```yarn link``` the project into your linkedevents-ui, to test styles locally. e.g:
 ```
-yarn add city_theme
-```
+//in your linkedevents-ui-theme:
+yarn link
 
-## Startup
-To start your experimental linkedevents-ui: make a copy of your config_dev.json.example and name it config_dev.json. Inside, set
-```"city_theme": "city_theme"```, then:
-```
-yarn
-yarn start
+//in your linkedevents-ui:
+yarn link city_theme
+
 ```

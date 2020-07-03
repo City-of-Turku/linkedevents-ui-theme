@@ -39,6 +39,13 @@
 // Routing / Link buttons
 .linked-events-bar {
   border-bottom: 1px solid !important;
+  &__links {
+    &__list {
+      .moderator {
+        color:  var(--black-color) !important;
+      }
+    }
+  }
   .btn {
     outline-width: 2px;
     background: none !important;
@@ -69,5 +76,5 @@
 .main-navbar .linked-events-bar__logo span {
   color: var(--black-color) !important;
   padding-left: 4.5rem !important;
-  font-size: 16px !important;
+  font-size: 1em !important;
 }
