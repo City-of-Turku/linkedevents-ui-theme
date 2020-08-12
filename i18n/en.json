@@ -339,7 +339,7 @@
     "uploaded-image-size-error": "The image exceeds the allowed maximum size of 2 megabytes (MB).",
     "image-modal-image-info": "Image information",
     "alt-text": "Alt-text: verbal description of image content (at least 6 characters)",
-    "photographer": "Photographer",
+    "photographer": "Photographer / rights holder",
     "image-modal-license-restricted-to-event": "Image may be used only for this event",
     "image-modal-image-license": "Image licence",
     "image-modal-image-license-permission": "I have permission to use this image.",
