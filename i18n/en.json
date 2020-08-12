@@ -248,9 +248,9 @@
     "image-update-error": "Error while updating image.",
     "confirm-image-delete": "Confirm image deletion",
 
-	"search-date-label-start": "From (dd.mm.yyyy)",
-	"search-date-label-end": "To (dd.mm.yyyy)",
-	"date-picker-button-label": "Date picker",
+    "search-date-label-start": "From (dd.mm.yyyy)",
+    "search-date-label-end": "To (dd.mm.yyyy)",
+    "date-picker-button-label": "Date picker",
     "copy-to-clipboard": "Copy to clipboard",
 
     "hel-target-groups": "Target groups",
@@ -312,7 +312,7 @@
     "courses-management": "Course management",
     "edit-image": "Edit image",
     "The name must be defined.": "The filename must be defined",
-    "image-caption-limit-for-min-and-max": "Image caption (the max length {maxLength} characters)",
+    "image-caption-limit-for-min-and-max": "Image caption (the max length 160 characters)",
     "delete-from-filesystem": "Delete image from the file system",
     "edit-selected-image": "Edit the selected image",
     "attach-image-to-event": "Attach image to event",
@@ -338,11 +338,14 @@
     "upload-image-from-url": "Upload image from URL",
     "uploaded-image-size-error": "The image exceeds the allowed maximum size of 2 megabytes (MB).",
     "image-modal-image-info": "Image information",
-    "alt-text": "Alt-text: verbal description of image content (the min. length is {minLength} and max. length is {maxLength} characters)",
+    "alt-text": "Alt-text: verbal description of image content (at least 6 characters)",
     "photographer": "Photographer",
     "image-modal-license-restricted-to-event": "Image may be used only for this event",
     "image-modal-image-license": "Image licence",
-    "image-modal-view-terms-paragraph-text": "Prior to uploading a new image, get to know the",
+    "image-modal-image-license-permission": "I have permission to use this image.",
+    "image-modal-image-license-explanation-event-only": "Image may be used only for this event = Image use is limited to this event",
+    "image-modal-image-license-explanation-cc-by": "CC BY 4.0 = Image is free to share and use, as long as a link to license is provided. (<a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' rel='noopener noreferrer'>additional information</a>)",
+    "image-modal-view-terms-paragraph-text": "Prior to uploading a new image, get to know the <a href='/help#images' target='_blank' rel='noopener noreferrer'>image terms and recommendations.</a>",
     "image-modal-view-terms-link-text": "image terms and recommendations.",
     "image-modal-save-button-text": "Save image",
     "error-message-has-been-sent": "The error message has been sent. Thank you for reporting!",
@@ -361,14 +364,14 @@
     "navbar.active": "Current language is English",
 
     "skiplink-shortcut": "Move to content",
-	
-	"cookieBar.accept": "Accept",
-	"cookieBar.decline.text": "Decline",
-	"cookieBar.decline.url": "https://www.google.com/",
-	"cookieBar.description": "We use cookies to improve your browsing experience. By continuing to use Linked Events, you accept the use of cookies.",
-	"cookieBar.link.text": "Link to cookie policy",
-	"cookieBar.link.url": "https://www.google.com/",
-    
+
+    "cookieBar.accept": "Accept",
+    "cookieBar.decline.text": "Decline",
+    "cookieBar.decline.url": "https://www.google.com/",
+    "cookieBar.description": "We use cookies to improve your browsing experience. By continuing to use Linked Events, you accept the use of cookies.",
+    "cookieBar.link.text": "Link to cookie policy",
+    "cookieBar.link.url": "https://www.google.com/",
+
     "search-no-results": "No results",
     "search-results-count": "Found {count} results",
 
