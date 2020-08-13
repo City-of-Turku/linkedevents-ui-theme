@@ -154,6 +154,7 @@
 
     "event-categorization": "Klassificering av evenemanget",
     "event-keywords": "Lägg till övriga ämnesord",
+    "event-keywords-delete": "Radera ämnesord",
 
     "event-umbrella": "Paraplyevenemangena",
     "event-is-umbrella": "Det här evenemanget är en paraplyevenemang.",
