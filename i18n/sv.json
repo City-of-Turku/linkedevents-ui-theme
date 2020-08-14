@@ -331,7 +331,7 @@
     "uploaded-image-size-error": "Bilden är för stor. Bildens storlek måste vara under 2 Mt.",
     "image-modal-image-info": "Bildens uppgifter",
     "alt-text": "Alt-text eller en verbal beskrivning av bildens innehåll (minst 6 tecken)",
-    "photographer":  "Fotograf",
+    "photographer":  "Fotograf / rättighetshavare",
     "image-modal-license-restricted-to-event": "Användningen begränsad till anknytning med evenemanget",
     "image-modal-image-license": "Licens",
     "image-modal-image-license-permission": "Jag har tillstånd att använda bilden.",
