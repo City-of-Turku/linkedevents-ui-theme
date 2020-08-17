@@ -372,10 +372,9 @@
     "preview-event": "Evenemangets uppgifter",
     "preview-event-button": "Kontrollera blankettens uppgifter",
 
-    "uploaded-image-size-tip": " Bildens maximalt tillåtna storlek är 2 Mt. Redigera bilden passlig för nätet och med en vågrätt bredd–höjd-förhållande 3:2 före uppladdning, t.ex. 1200x800px.",
-    "uploaded-image-size-tip1": " Bildens maximalt tillåtna storlek är 2 Mt.",
+    "uploaded-image-size-tip": " Bildens maximalt tillåtna storlek är 2 Mt.",
     "uploaded-image-size-tip2": "Redigera bilden passlig för nätet och med en vågrätt bredd–höjd-förhållande 3:2 före uppladdning, t.ex. 1200x800px (bredd x höjd).",
-    "uploaded-image-size-tip3": "Tillåtna filformaten är jpeg, gif ja png.",
+    "uploaded-image-size-tip3": "Tillåtna filformaten är jpeg, gif och png.",
 
     "reportbutton-send": "Skicka rapport",
     "reportmodal-title": "Rapportera fel",
