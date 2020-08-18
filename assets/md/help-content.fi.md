@@ -5,11 +5,11 @@ Syötä tapahtumatiedot kerralla hyödynnettäväksi monessa paikassa.
 
 Linked Events on tapahtumatietokanta, joka perustuu avoimeen lähdekoodiin. Se ei itse ole tapahtumakalenteri, vaan tarjoaa tapahtumatiedot eri sovelluksille – myös muille kuin kaupungin omille. Tapahtumien ei siis tarvitse olla kaupungin järjestämiä.
 
-Lue lisää **https://www.databusiness.fi/fi/linked-events/**
+<a href="https://www.databusiness.fi/fi/linked-events" target="_blank">Lue lisää</a>
 
 ## Linked Events -tapahtumarajapinnan käyttöehdot
 Kaupungin tapahtumakalenteri: kalenteri.turku.fi
-Linked Events -rajapinta:  **https://api.turku.fi/linkedevents/**
+Linked Events -rajapinta: https://api.turku.fi/linkedevents/
 Rajapinnan kehittäjäsivu: dev.hel.fi/projects/linked-events
 Rajapinnan kehityksestä Turussa vastaavat: projektipäällikkö Mira Koivumäki-Lindholm ja työnjohtaja Ville Eemilä.
 
@@ -25,7 +25,7 @@ Huolella syötetyt tiedot helpottavat tapahtuman löytämistä ja tiedon käytt�
 
 1. **Linked Events on Turun kaupungin tapahtumatietokanta**. Palveluun syötetyt tapahtumat siirtyvät automaattisesti kaupungin tapahtumakalenteriin, muille sivustoille ja muihin kuin kaupungin ylläpitämiin kalenterisovelluksiin. Tapahtuman kuvaus kannattaa siksi laatia helposti ymmärrettäväksi eri käyttöpaikoissa.
 
-2. **Tapahtumien ilmoituslomake** on osoitteessa **https://testilinkedevents.turku.fi/**. Käyttöoikeuden saa kirjautumalla ensin palveluun ja lähettämällä tämän jälkeen oikeuksien vahvistuspyynnön. Ilmoituslomaketta voi käyttää missä vain, myös mobiililaitteilla. Muokkausoikeus on oman organisaation tapahtumille.
+2. **Tapahtumien ilmoituslomake** on osoitteessa https://testilinkedevents.turku.fi/. Käyttöoikeuden saa kirjautumalla ensin palveluun ja lähettämällä tämän jälkeen oikeuksien vahvistuspyynnön. Ilmoituslomaketta voi käyttää missä vain, myös mobiililaitteilla. Muokkausoikeus on oman organisaation tapahtumille.
 
 3. **Turun kaupunki mahdollistaa tapahtumien syöttämisen tietokantaan**. Tapahtumien ei tarvitse olla kaupungin järjestämiä eikä niiden tarvitse olla kaikille avoimia, mutta rajoitukset on kerrottava selkeästi tapahtuman kuvauksessa.
 
@@ -45,7 +45,7 @@ Huolella syötetyt tiedot helpottavat tapahtuman löytämistä ja tiedon käytt�
 
  5.4 **Tapahtuman paikka valitaan kaupungin toimipisterekisterin paikoista**. Osoitetiedot haetaan automaattisesti, kun oikea paikka löytyy. Voit tarkentaa saapumisohjeita lisätiedot-kentässä.
 
- 5.5 **Tapahtuman luokittelu asiasanoilla on tärkeää, jotta eri sovellusten käyttäjät löytävät tapahtuman**. Valitse muutama asiasana ja suosi niitä, joita on käytetty useissa tapahtumissa. Asiasanat (ks. YSO-sanasto **https://finto.fi/yso/fi**) löytyvät useimmiten monikkomuodossa, esim. kirjat, perheet, näytelmät ja maalaukset.
+ 5.5 **Tapahtuman luokittelu asiasanoilla on tärkeää, jotta eri sovellusten käyttäjät löytävät tapahtuman**. Valitse muutama asiasana ja suosi niitä, joita on käytetty useissa tapahtumissa. Asiasanat (ks. <a href="https://finto.fi/yso/fi" target="_blank">YSO-sanasto</a>) löytyvät useimmiten monikkomuodossa, esim. kirjat, perheet, näytelmät ja maalaukset.
 
  5.6 **Pääkategoriat ja kohderyhmät ovat ensijaisesti turku**.fi-sivustoa varten, mutta niitä saatetaan hyödyntää myös muissa tapahtumasovelluksissa.
 
@@ -57,7 +57,7 @@ Huolella syötetyt tiedot helpottavat tapahtuman löytämistä ja tiedon käytt�
 
 <br>
 
-6. Virhetilanteissa voit lähettää viestin lomakkeen vasemmasta laidasta löytyvän huutomerkki-ikonin kautta. Parannusideoita käyttöliittymään tai neuvoa voi kysyä osoitteesta **driveturku@turku.fi**.
+6. Virhetilanteissa voit lähettää viestin lomakkeen vasemmasta laidasta löytyvän huutomerkki-ikonin kautta. Parannusideoita käyttöliittymään tai neuvoa voi kysyä osoitteesta driveturku@turku.fi.
 
 
 ### D. Kuvien lisääminen rajapintaan
@@ -87,11 +87,11 @@ Kuvatekstissä voit kertoa hyvin lyhyesti lisätietoja kuvasta ja tapahtumasta. 
 **Varmista aina, että sinulla tai edustamallasi taholla on oikeus käyttää kuvaa tapahtuman markkinoinnissa**. Kuvan käyttöoikeuden varmistaminen on aina kuvan syöttäjän vastuulla.
 Myös oikean lisenssin valinta on käyttäjän vastuulla.
 
-CC 4.0 BY = kuvaa saa jakaa ja käyttää vapaasti, kun tekijätiedot mainitaan (ks. lisätietoja **https://creativecommons.org/licenses/by/4.0/**)
+CC 4.0 BY = kuvaa saa jakaa ja käyttää vapaasti, kun tekijätiedot mainitaan (ks. <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">lisätietoja</a>)
 Käyttö rajattu tapahtuman yhteyteen = kuvaa saa käyttää ja jakaa vain tapahtumatiedon yhteydessä.
 
 Jos kuvaajan tai kuvan oikeudenomistajan kanssa ei ole erikseen muuta sovittu, valitse kuvalle lisenssi "Käyttö rajattu tapahtuman yhteyteen".
 
-Events only -lisenssin määritelmä: **https://api.hel.fi/linkedevents/v1/**
+<a href="https://api.hel.fi/linkedevents/v1/" target="_blank">Events only -lisenssin määritelmä</a>
 
 <br>
