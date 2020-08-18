@@ -49,24 +49,13 @@
     "select": "Select...",
     "close": "Close",
 
-    "links-to-events": "Links to other events",
-    "no-links-to-events": "No links.",
-
     "super-event-of-series": "This is the top event of a series.",
     "super-event-of-umbrella": "This is an umbrella event.",
     "sub-event-of-series": "This event is part of a series: ",
     "sub-event-of-umbrella": "This event has an umbrella event: ",
     "sub-events-for-series": "Subevents of the series:",
     "sub-events-for-umbrella": "Subevents of the umbrella event:",
-
-    "event-sort-name": "Title",
-    "event-sort-start_time": "Event starts",
-    "event-sort-end_time": "Event ends",
-    "event-sort-last_modified_time": "Last modified",
-    "event-sort-publisher": "Publisher",
-    "event-sort-event_time": "Event time",
-    "event-sort-date_published": "Published",
-    "event-sort-validation": " ",
+    "organization-missing-message-contact1": "Matias Peltonen "
 
     "event-page-error": "Event not found or you don't have the permission to view it.",
     "event-page-loading": "Loading event...",
