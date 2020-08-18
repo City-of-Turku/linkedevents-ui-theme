@@ -6,11 +6,11 @@ Fyll i information om ditt evenemang för att utnyttjas på flera ställen.
 
 Linked Events är en evenemangsdatabas som baserar sig på öppen källkod. Den är ingen evenemangskalender i sig, utan erbjuder evenemangsinformation för flera plattformer – inte bara för stadens egna. Evenemangen behöver alltså inte vara arrangerade av staden.
 
-Läs mer **https://www.databusiness.fi/fi/linked-events/**
+<a href="https://www.databusiness.fi/fi/linked-events/" target="_blank">Läs mer</a>
 
 ## Användarvillkor för Linked Events-evenemangsgränssnittet
 Stadens evenemangskalender: kalenteri.turku.fi
-Linked Events-gränssnittet:  **https://api.turku.fi/linkedevents/**
+Linked Events-gränssnittet:  https://api.turku.fi/linkedevents/
 Gränssnittets utvecklarsida: dev.hel.fi/projects/linked-events
 Ansvariga för utveckling av gränssnittet i Åbo är: projektchef Mira Koivumäki-Lindholm och arbetsledare Ville Eemilä.
 
@@ -26,7 +26,7 @@ Grundligt ifylld information gör det enklare att hitta evenemanget och underlä
 
 1. **Linked Events är Åbo stads evenemangsdatabas**. Evenemang som matats in i tjänsten flyttas automatiskt över till stadens evenemangskalender, övriga webbplatser och övriga kalenderplattformer som upprätthålls av staden. Det lönar sig alltså att utforma en beskrivning av evenemanget som är lättförståelig på olika användningsplatser.
 
-2. **Evenemangens anmälningsformulär** finns på adressen **https://testilinkedevents.turku.fi/**. Du får användarbehörighet genom att först logga in i tjänsten och sedan skicka en bekräftelseförfrågan. Anmälningsformuläret kan användas var som helst, också på mobilenheter. Behörigheten för redigering gäller för den egna organisationens evenemang.
+2. **Evenemangens anmälningsformulär** finns på adressen https://testilinkedevents.turku.fi/. Du får användarbehörighet genom att först logga in i tjänsten och sedan skicka en bekräftelseförfrågan. Anmälningsformuläret kan användas var som helst, också på mobilenheter. Behörigheten för redigering gäller för den egna organisationens evenemang.
 
 3. **Åbo stad möjliggör inmatandet av evenemang i databasen**. Evenemangen behöver inte vara arrangerade av staden och de behöver inte vara öppna för allmänheten, men eventuella begränsningar bör framgå tydligt i evenemangets beskrivning.
 
@@ -46,7 +46,7 @@ Grundligt ifylld information gör det enklare att hitta evenemanget och underlä
 
  5.4 **Evenemangets plats väljs bland de platser som finns i stadens register över verksamhetsställen**. Adressinformationen hämtas automatiskt när rätt plats hittas. Du kan precisera ankomstinstruktioner i fältet för tilläggsuppgifter.
 
- 5.5 **Det är viktigt att kategorisera evenemanget med nyckelord så att användarna på olika plattformer hittar evenemanget**. Välj några nyckelord och föredra sådana ord som har använts för flera evenemang. Nyckelorden (se ALLFO-vokabulären **https://finto.fi/yso/sv**) hittas oftast i plural, t.ex. böcker, familjer, pjäser och målningar.
+ 5.5 **Det är viktigt att kategorisera evenemanget med nyckelord så att användarna på olika plattformer hittar evenemanget**. Välj några nyckelord och föredra sådana ord som har använts för flera evenemang. Nyckelorden (se <a href="https://finto.fi/yso/sv" target="_blank">ALLFO-vokabulären</a>) hittas oftast i plural, t.ex. böcker, familjer, pjäser och målningar.
 
  5.6 **Huvudkategorierna och målgrupperna är i första hand avsedda för turku.fi**-webbplatsen, men de kan utnyttjas även i andra evenemangsplattformer.
 
@@ -58,7 +58,7 @@ Grundligt ifylld information gör det enklare att hitta evenemanget och underlä
 
 <br>
 
-6. Vid problemsituationer kan du skicka ett meddelande via utropsteckensikonen som finns till vänster i formuläret. Förbättringsidéer gällande användargränssnittet eller frågor kan skickas till adressen **driveturku@turku.fi**.
+6. Vid problemsituationer kan du skicka ett meddelande via utropsteckensikonen som finns till vänster i formuläret. Förbättringsidéer gällande användargränssnittet eller frågor kan skickas till adressen driveturku@turku.fi.
 
 
 ### D. Lägga till bilder i gränssnittet
@@ -88,11 +88,11 @@ I bildtexten kan du mycket kort beskriva tilläggsuppgifter om bilden och evenem
 
 **Försäkra alltid att du eller instansen du representerar har rätt att använda bilden i evenemangets marknadsföring**. Den person som matar in bilden bär alltid ansvaret för att försäkra sig om bildens användarrättigheter. Användaren ansvarar också för att välja rätt licens.
 
-CC 4.0 BY = bilden får delas och användas fritt, så länge upphovsuppgifterna nämns (se mer information **https://creativecommons.org/licenses/by/4.0/**)
+CC 4.0 BY = bilden får delas och användas fritt, så länge upphovsuppgifterna nämns (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">se mer information</a>)
 Användning begränsad till evenemanget = bilden får användas och delas endast i samband med evenemangsinformationen.
 
 Om man inte kommit överens om annat med fotografen eller den som äger rättigheterna till bilden, välj licensen ”Användning begränsad till evenemanget”.
 
-Definition av Events only -licensen: **https://api.hel.fi/linkedevents/v1/**
+<a href="https://api.hel.fi/linkedevents/v1/" target="_blank">Definition av Events only -licensen</a>
 
 <br>

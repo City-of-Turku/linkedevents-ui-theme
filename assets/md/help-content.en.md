@@ -6,11 +6,11 @@ Enter your event details once and they can be used in various places.
 
 Linked Events is an event database based on open source code. It is not an event calendar in itself but instead it provides event details for different apps – also others than City of Turku apps. In other words, the events don’t have to be organised by the City of Turku.
 
-Read more **https://www.databusiness.fi/fi/linked-events/**
+<a href="https://www.databusiness.fi/fi/linked-events" target="_blank">Read more</a>
 
 ## Terms of use for the Linked Events event interface
 City of Turku events calendar: kalenteri.turku.fi
-Linked Events interface:  **https://api.turku.fi/linkedevents/**
+Linked Events interface:  https://api.turku.fi/linkedevents/
 Developer site for the interface: dev.hel.fi/projects/linked-events
 Persons responsible for developing the interface in Turku: Mira Koivumäki-Lindholm, project manager, and Ville Eemilä, supervisor.
 
@@ -27,7 +27,7 @@ When you enter data carefully, it will be easier to find the event and use the d
 1. **Linked Events is an event database of the City of Turku**. 
 The events that have been entered in the service are automatically transferred to the City of Turku events calendar, other websites and calendar apps maintained by others than the City of Turku. Therefore, it is good to create an event description that is easily understood in various locations of use.
 
-2. **The form for notifying events** can be found at **https://testilinkedevents.turku.fi/**. You will receive access rights by first logging into the service and then sending a request to confirm access rights. The form can be used anywhere, also with mobile devices. You have the right to edit events of your own organisation.
+2. **The form for notifying events** can be found at https://testilinkedevents.turku.fi/. You will receive access rights by first logging into the service and then sending a request to confirm access rights. The form can be used anywhere, also with mobile devices. You have the right to edit events of your own organisation.
 
 3. **The City of Turku enables entering events in the database**. 
 The events don’t need to be organised by the City of Turku and they don’t need to be open to all but any restrictions must be clearly stated in the event description.
@@ -48,7 +48,7 @@ The events don’t need to be organised by the City of Turku and they don’t ne
 
  5.4 **The location of the event is selected from among places in the register of City of Turku units**. The address information is fetched automatically when the correct location is found. You can specify instructions for arrival in the additional information field.
 
- 5.5 **Categorising the event using key words is important so that users of different apps find the event**. Pick a few keywords and favour words that have been used for several events. Keywords (see General Finnish Ontology YSO **https://finto.fi/yso/en**) can most often be found in plural form, e.g. books, families, plays and paintings.
+ 5.5 **Categorising the event using key words is important so that users of different apps find the event**. Pick a few keywords and favour words that have been used for several events. Keywords (see <a href="https://finto.fi/yso/" target="_blank">General Finnish Ontology YSO</a>) can most often be found in plural form, e.g. books, families, plays and paintings.
 
  5.6 **Main categories and target groups are primarily set for the turku.fi** site, but they may also be used in other event apps.
 
@@ -60,7 +60,7 @@ The events don’t need to be organised by the City of Turku and they don’t ne
 
 <br>
 
-6. In error situations, you can send a message through the exclamation mark icon on the left side of the form. If you have suggestions for improvement or need advice, please contact  **driveturku@turku.fi**.
+6. In error situations, you can send a message through the exclamation mark icon on the left side of the form. If you have suggestions for improvement or need advice, please contact  driveturku@turku.fi.
 
 
 ### D. Adding images into the interface
@@ -91,11 +91,11 @@ In the caption, you can very briefly provide further information on the image an
 Also selecting the correct licence falls under the responsibility of the user.
 
 
-CC 4.0 BY = the image can be shared and used freely, as long as author information is included (see further information at **https://creativecommons.org/licenses/by/4.0/**)
+CC 4.0 BY = the image can be shared and used freely, as long as author information is included (<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">see further information</a>)
 Image may be used only for this event = the image can be used and shared only in connection with the event information.
 
 Unless agreed otherwise with the photographer or right holder of the image, select the licence "Image may be used only for this event" for the image.
 
-Definition of the Events only licence: **https://api.hel.fi/linkedevents/v1/**
+<a href="https://api.hel.fi/linkedevents/v1/" target="_blank">Definition of the Events only licence</a>
 
 <br>
