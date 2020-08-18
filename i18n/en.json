@@ -1,5 +1,4 @@
 {
-    "organization-missing-message-contact1": "Matias Peltonen ",
     "login": "Login",
     "logout": "Logout",
     "linked-events": "Linked Events",
@@ -55,7 +54,7 @@
     "sub-event-of-umbrella": "This event has an umbrella event: ",
     "sub-events-for-series": "Subevents of the series:",
     "sub-events-for-umbrella": "Subevents of the umbrella event:",
-    "organization-missing-message-contact1": "Matias Peltonen "
+    "organization-missing-message-contact1": "Matias Peltonen ",
 
     "event-page-error": "Event not found or you don't have the permission to view it.",
     "event-page-loading": "Loading event...",
