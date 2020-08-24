@@ -5,5 +5,13 @@
     "footer-city3": "www.turku.fi",
 
     "organization-missing-message-contact1": "Matias Peltoseen ",
-    "photographer": "Kuvaaja / kuvan oikeudenomistaja"
+    "photographer": "Kuvaaja / kuvan oikeudenomistaja",
+    "editor-tip-time-start": "Kirjoita tapahtuman alkamispäivä ja alkamisaika.",
+    "editor-tip-time-end": " Kirjoita päättymispäivä ja päättymisaika, jos tiedossa. Jos päättymisaikaa ei ole annettu, tulee päättymisajaksi alkamispäivä klo 23.59.",
+    "editor-tip-time-multi": "Jos tapahtuma järjestetään useamman kerran, voit lisätä tapahtumalle uusia ajankohtia. Jos tapahtuma toistuu säännöllisesti, voit lisätä kaikki ajankohdat kerralla valitsemalla 'Toistuva tapahtuma'. Tapahtumakertoja voi olla enintään 65.",
+    "editor-tip-umbrella-selection": "Jos kyseessä on itsenäinen tapahtuma, jätä valinnat tyhjiksi.",
+    "editor-tip-umbrella-selection1": "Jos tämä tapahtuma kokoaa alleen useita muita tapahtumia, valitse 'Tämä tapahtuma on kattotapahtuma'. Esimerkiksi Taiteiden yö tai Elokuvapäivä.",
+    "editor-tip-umbrella-selection2": "Jos tämä tapahtuma liittyy suoraan isompaan tapahtumaan, valitse 'Tällä tapahtumalla on kattotapahtuma' ja valitse aiemmin luotu tapahtuma. Esim. Kirjailijatapaaminen Taiteiden yönä.",
+    "editor-tip-event-description": "Kirjoita eri yhteyksissä ymmärrettävä otsikko, lyhyt kuvaus ja kuvaus.",
+    "editor-tip-event-description1": "Lyhyt kuvaus näytetään vain listoissa, kuvaus vain tapahtuman omalla sivulla. Jos kohderyhmä on rajattu, kerro siitä kuvaustekstissä."
 }
