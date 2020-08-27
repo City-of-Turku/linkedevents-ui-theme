@@ -238,6 +238,12 @@
   margin-right: 20px;
 }
 
+.location-row {
+  .clipboard-copy-button {
+    display: none !important;
+  }
+}
+
 @media (max-width:760px) {
 .location-row {
   .clipboard-copy-button {
@@ -256,6 +262,7 @@
   font-size: 1.25em !important;
 }
 .place-id {
+  display: none;
   margin-top: 20px !important;
   input {
     border: none !important;
