@@ -374,7 +374,7 @@
     "reportmodal-title": "Report an error situation",
     "reportmodal-field": "Describe the problem",
     "reportmodal-version": "Version identifier of application:",
-    "reportmodal-tooltip": "If there is an error in event management or functioning of form, click Report an error so that we are notified about the error situation and can look into it.",
+    "reportmodal-tooltip": "If there is an error in event management or the operation of the input form, fill in the description of the error situation and we will get the information and can investigate.",
     "reportmodal-sent": "Thank you, report sent",
 
     "footer-city": "© City of Turku",

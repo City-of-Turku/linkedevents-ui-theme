@@ -13,5 +13,7 @@
     "editor-tip-umbrella-selection1": "Jos tämä tapahtuma kokoaa alleen useita muita tapahtumia, valitse 'Tämä tapahtuma on kattotapahtuma'. Esimerkiksi Taiteiden yö tai Elokuvapäivä.",
     "editor-tip-umbrella-selection2": "Jos tämä tapahtuma liittyy suoraan isompaan tapahtumaan, valitse 'Tällä tapahtumalla on kattotapahtuma' ja valitse aiemmin luotu tapahtuma. Esim. Kirjailijatapaaminen Taiteiden yönä.",
     "editor-tip-event-description": "Kirjoita eri yhteyksissä ymmärrettävä otsikko, lyhyt kuvaus ja kuvaus.",
-    "editor-tip-event-description1": "Lyhyt kuvaus näytetään vain listoissa, kuvaus vain tapahtuman omalla sivulla. Jos kohderyhmä on rajattu, kerro siitä kuvaustekstissä."
+    "editor-tip-event-description1": "Lyhyt kuvaus näytetään vain listoissa, kuvaus vain tapahtuman omalla sivulla. Jos kohderyhmä on rajattu, kerro siitä kuvaustekstissä.",
+
+    "reportmodal-tooltip": "Jos tapahtumien hallinnassa tai syöttölomakkeen toiminnassa on virhe, täytä kuvaus virhetilanteesta, niin saamme tiedon ja voimme tutkia asiaa."
 }

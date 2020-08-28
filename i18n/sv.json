@@ -380,7 +380,7 @@
     "reportmodal-title": "Rapportera fel",
     "reportmodal-field": "Beskriv problemet",
     "reportmodal-version": "Applikationens versionsbeteckning:",
-    "reportmodal-tooltip": "Om det uppstår fel i hanteringen av evenemang eller i funktionen av blanketten, klicka ’rapportera fel’-knappen så får vi information om felsituationen och kan undersöka saken.",
+    "reportmodal-tooltip": "Om det finns ett fel i händelsehanteringen eller användningen av inmatningsformuläret, fyll i beskrivningen av felsituationen så får vi informationen och kan undersöka.",
     "reportmodal-sent": "Rapport skickad, tack",
 
     "footer-city": "© Åbo Stad",
