@@ -232,6 +232,9 @@
     "event-creation-cancel-success": "Evenemanget inställdes!",
     "event-creation-publish-success": "Evenemanget publicerades framgångsrikt!",
 
+    "table-events-checkbox": "Välja {name}",
+    "table-events-checkbox-all": "Välj alla händelser",
+
     "image-creation-success":  "Bilden skapades framgångsrikt!",
     "image-creation-error": "Fel när bilden skapades.",
     "image-deletion-success":  "Bilden avlägsnades framgångsrikt!",
