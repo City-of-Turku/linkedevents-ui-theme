@@ -156,18 +156,6 @@
     margin-top: 0px !important;
   }
 }
-.button-row {
-  .btn-primary,
-  .btn-secondary,
-  .delete {
-    background-color: var(--main-color) !important;
-    border-radius: 2px;
-    font-size: 1em !important;
-    color: var(--black-color);
-    border-color: var(--black-color) !important;
-    margin-top: 0px !important;
-  }
-}
 
 .file-upload--new {
   .btn-secondary {
@@ -178,12 +166,27 @@
 }
 
 // ImageThumbnail
-.image-thumb.selected {
-  border: 4px solid var(--black-color) !important;
+.image-thumb {
+  &.selected {
+    border: 4px solid var(--black-color) !important;
+  }
+  .thumbnail {
+    background-color: var(--main-color) !important;
+    &:focus, &:hover {
+      border: 4px solid var(--main-color) !important;
+    }
+  }
+  .name {
+    .name-buttons {
+      .btn {
+        &:hover, &:focus {
+          background-color: var(--main-color) !important;
+      }
+      }
+    }
+  }
 }
-.thumbnail {
-  background-color: var(--main-color) !important;
-}
+
 .no-image-text {
   font-size: 1.25em !important;
 }
