@@ -346,13 +346,12 @@
 .image-picker--dialog {
   .modal-header {
     background-color: var(--black-color)!important;
-    align-items: center;
     .glyphicon {
       color: var(--light-color)!important;
     }
     .modal-title {
       color: var(--light-color) !important;
-      font-weight: bold;
+      font-weight: bold !important;
     }
   }
   .modal-body {
@@ -360,6 +359,7 @@
       background-color: var(--light-color) !important;
       .modal-title {
         color: var(--black-color) !important;
+        font-weight: normal !important;
       }
     }
   }
