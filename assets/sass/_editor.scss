@@ -342,16 +342,25 @@
   }
 }
 
+//Imagepicker modal
 .image-picker--dialog {
-  .modalH1 {
+  .modal-header {
     background-color: var(--black-color)!important;
     align-items: center;
+    .glyphicon {
+      color: var(--light-color)!important;
+    }
     .modal-title {
       color: var(--light-color) !important;
       font-weight: bold;
     }
-    .glyphicon {
-      color: var(--light-color)!important;
+  }
+  .modal-body {
+    .modal-header {
+      background-color: var(--light-color) !important;
+      .modal-title {
+        color: var(--black-color) !important;
+      }
     }
   }
 }
