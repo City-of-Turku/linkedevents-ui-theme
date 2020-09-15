@@ -109,6 +109,7 @@
     "organization-images": "Organisationens bilder",
     "use-existing-image": "Använd en i systemet existerande bild",
     "no-image": "Evenemanget har ingen bild",
+    "select-from-default": "Eller välj en standardbild",
 
     "event-datetime-fields-header": "Evenemangets tidpunkter",
     "event-starting-datetime": "Evenemanget inleds (dd.mm.åååå tt.mm)",
