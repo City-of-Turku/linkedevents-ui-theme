@@ -204,6 +204,14 @@
       }
     }
   }
+  .tip {
+    background: var(--main-color) !important;
+    border: 1px solid !important;
+    color: var(--black-color) !important;
+    p {
+      color: var(--black-color) !important;
+    }
+  }
 }
 //ConfirmationModal app.js
 .ConfirmationModal {
