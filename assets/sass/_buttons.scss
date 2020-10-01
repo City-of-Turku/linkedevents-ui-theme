@@ -3,11 +3,11 @@
   .btn-secondary {
     display: inline;
     background-color: var(--main-color) !important;
-    color: var(--black-color);
+    color: var(--light-color);
     border-color: var(--black-color) !important;
     margin: 0.3vh;
     &:hover {
-      background-color: var(--light-color) !important;
+      background-color: var(--darkgray-color) !important;
     }
   }
 }
@@ -16,28 +16,57 @@
   .btn {
     &:hover,
     &:focus {
-      background-color: var(--danger-color) !important;
+      background-color: var(--red-color) !important;
     }
   }
 }
 
 // Create event page
+.editor-page {
+  .btn-secondary {
+    background-color: var(--main-color) !important;
+    color: var(--light-color) !important;
+    &:disabled {
+      background: rgba($color: #252525, $alpha: 1.0) !important;
+    }
+    &:hover {
+      background-color: var(--darkgray-color) !important;
+      &:disabled {
+        background-color: var(--black-color) !important;
+      }
+    }
+  }
+  .btn-primary {
+    background-color: var(--main-color) !important;
+    color: var(--light-color) !important;
+    border-color: var(--black-color) !important;
+    &:hover {
+      background-color: var(--darkgray-color) !important;
+    }
+    &:hover &:focus &:disabled {
+      color: var(--black-color) !important;
+    }
+  }
+}
+
 .buttons-group {
   .btn-secondary {
     display: inline;
     background-color: var(--main-color) !important;
-    color: var(--black-color);
+    color: var(--light-color);
     border-color: var(--black-color) !important;
-    margin: 0.3vh;
     &:hover {
-      background-color: var(--light-color) !important;
+      background-color: var(--darkgray-color) !important;
+    }
+    &:hover &:focus &:disabled {
+      color: var(--black-color) !important;
     }
   }
 }
 
 // Calendar Button
 .custom-date-input__button {
-  color: var(--black-color) !important;
+  color: var(--light-color) !important;
   background-color: var(--main-color) !important;
 }
 
@@ -52,15 +81,32 @@
 }
 
 // Search page
-.search-bar--input {
-  .btn {
-    background-color: var(--main-color) !important;
-    margin-left: 18px;
-    height: 55px;
-    border-radius: 2px;
-    color: var(--black-color);
-    border-color: var(--black-color) !important;
-    border: 1px solid !important;
-    font-size: 1em;
+.search-bar {
+  .btn-secondary {
+    &:hover {
+      background-color: var(--darkgray-color) !important;
+    }
+  }
+  .event-input {
+    .btn-primary {
+      background-color: var(--main-color) !important;
+      margin-left: 18px;
+      height: 55px;
+      color: var(--light-color);
+      font-size: 1em;
+      &:focus {
+        box-shadow: none !important;
+      }
+      &:hover {
+        background-color: var(--darkgray-color) !important;
+      }
+      &:disabled {
+        background-color: var(--black-color) !important;
+        color: var(--light-color) !important;
+        &:hover {
+          background-color: var(--darkgray-color) !important;
+        }
+      }
+    }
   }
 }

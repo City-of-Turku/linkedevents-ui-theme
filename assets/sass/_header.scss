@@ -1,6 +1,6 @@
 // Main navbar
 .main-navbar .bar {
-	background: var(--black-color) !important;
+	background: var(--main-color) !important;
 	height: 100px !important;
 	&__logo {
 		background-image: url('./images/linkedeventswhite.png') !important;
@@ -10,23 +10,19 @@
 
 .navbar {
 	.btn {
-		border-radius: 0;
-		.glyphicon {
-			color: var(--light-color) !important;
-		}
 		&:focus,
 		&:active {
+			border: solid 2px !important;
+			border-color: var(--light-color) !important;
 			background-color: var(--light-color);
 			color: var(--black-color) !important;
-			outline: solid 2px !important;
-			outline-color: var(--light-color) !important;
 			.glyphicon {
 				color: var(--black-color) !important;
 			}
 		}
 		&:hover {
-			outline: solid 2px !important;
-			outline-color: var(--light-color) !important;
+			border: solid 2px !important;
+			border-color: var(--light-color) !important;
 			background-color: var(--light-color) !important;
 			color: var(--black-color) !important;
 			.glyphicon {
@@ -37,6 +33,7 @@
 }
 
 .linked-events-bar {
+	background-color: var(--gray-color) !important;
 	border-bottom: 1px solid !important;
 	&__logo {
 		span {
@@ -51,31 +48,11 @@
 					color: var(--black-color) !important;
 				}
 			}
-			.nav-link {
-				margin-right: 1rem !important;
-			}
 		}
-		&__create-event {
-			.nav-link {
-				span {
-					color: var(--black-color) !important;
-				}
-				border: none !important;
-				outline-width: 2px;
-				background: none !important;
-				&:focus,
-				&:hover {
-					outline-color: var(--black-color) !important;
-					box-shadow: none !important;
-				}
-				&.active {
-					outline-color: var(--black-color) !important;
-					border: none !important;
-					box-shadow: none !important;
-				}
-				.glyphicon {
-					color: var(--black-color) !important;
-				}
+		.create-events-button {
+			outline-color: var(--black-color) !important;
+			span {
+				color: var(--black-color) !important;
 			}
 		}
 	}

@@ -1,411 +1,395 @@
-//Editor Page SCSS
+// Editor Page SCSS
 .editor-page {
-  .highlighted-block {
-    background-color: var(--main-color) !important;
-    border: 1px solid !important;
-    color: var(--black-color) !important;
-    max-width: auto !important;
-    line-height: inherit !important;
-    .language-selection {
-      font-size: 1.125em !important;
+    .highlighted-block {
+        background-color: var(--secondary-color) !important;
+        border: 1px solid !important;
+        color: var(--black-color) !important;
+        max-width: auto !important;
+        line-height: inherit !important;
+        .language-selection {
+            font-size: 1.125em !important;
+        }
+        label {
+            font-size: 1em !important;
+            &:first-child {
+                font-size: 1.5em !important;
+            }
+        }
     }
-    label {
-      font-size: 1em !important;
-      &:first-child {
-        font-size: 1.5em !important;
-      }
+    .row {
+        margin-top: 0.5vh;
+        margin-bottom: 0.5vh;
     }
-  }
-  .row {
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-  }
-  .tip {
-    background: var(--main-color) !important;
-    border: 1px solid !important;
-    color: var(--black-color) !important;
-    p {
-      color: var(--black-color) !important;
+    // Tip Styles
+    .tip {
+        background: var(--secondary-color) !important;
+        border: 1px solid !important;
+        color: var(--dark-color) !important;
+        span {
+            color: var(--black-color) !important;
+        }
     }
-  }
-  .checkbox-group {
-    background-color: var(--main-color) !important;
-    border: 1px solid !important;
-    margin-top: 5px !important;
-    margin-bottom: 30px !important;
-    h2 {
-      font-size: 1.5em !important;
+    .checkbox-group {
+        background-color: var(--secondary-color) !important;
+        border: 1px solid !important;
+        margin-top: 5px !important;
+        margin-bottom: 30px !important;
+        h2 {
+            font-size: 1.5em !important;
+        }
+        legend {
+            font-size: 1em !important;
+            font-family: inherit !important;
+        }
     }
-    legend {
-      font-size: 1em !important;
-      font-family: inherit !important;
+    // Input Field Styles
+    .event-input {
+        label {
+            font-size: 1.2em !important;
+        }
+        input {
+            border-bottom: solid 2px;
+            &:hover {
+                border-bottom: solid 3px;
+                border-color: var(--main-color);
+            }
+            &:focus,
+            &:active {
+                border-bottom: solid 3px;
+                border-color: var(--main-color);
+            }
+        }
+        textarea {
+            border: none !important;
+            outline: solid 2px;
+            &:hover {
+                outline: solid 3px;
+                outline-color: var(--main-color);
+            }
+            &:focus
+            &:active {
+                outline: solid 3px;
+                border-color: var(--main-color);
+            }
+        }
     }
-  }
-  .event-heading, h2 {
-    font-size: 1.5em !important;
-    margin-bottom: 0 !important;
-  }
-  .event-input {
-    label {
-      font-size: 1.2em !important;
+    .form-control {
+        &:focus {
+            box-shadow: none !important;
+        }
     }
-    input {
-      border: solid 2px;
-      border-radius: 3px;
-      &:hover {
-        border: solid 3px;
-        border-color: var(--main-color);
-      }
-      &:focus,
-      &:active {
-        border: solid 4px;
-        border-color: var(--main-color);
-      }
+    .badge-primary {
+        background-color: var(--main-color) !important;
     }
-    textarea {
-      &:hover {
-        border: solid 3px;
-        border-color: var(--main-color);
-      }
-      &:focus,
-      &:active {
-        border: solid 4px;
-        border-color: var(--main-color);
-      }
-    }
-  }
-  .editor-action-buttons {
-    padding-top: 0 !important;
-  }
-  .controls {
-    button {
-    background-color: var(--main-color) !important;
-    border-radius: 2px;
-    font-size: 1em !important;
-    color: var(--black-color);
-    border-color: var(--black-color) !important;
-    &:hover {
-      background-color: var(--light-color) !important;
-    }
-    }
-  }
-}
-
-// Calendar Input
-.custom-date-input {
-  input {
-    &:hover,
-    &:focus,
-    &:active {
-      border-color: var(--main-color) !important;
-    }
-  }
-}
-
-// Calendar Date Select
-.react-datepicker__day--selected {
-  color: var(--black-color) !important;
-  background-color: var(--main-color) !important;
-}
-.react-datepicker__day--keyboard-selected {
-  color: var(--black-color) !important;
-  background-color: var(--main-color) !important;
-}
-
-.search-bar {
-  .event-input {
-    input {
-      border: solid 2px;
-      border-radius: 3px;
-      &:hover {
-        border: solid 3px;
-        border-color: var(--main-color) !important;
-      }
-      &:focus,
-      &:active {
-        border: solid 4px;
-        border-color: var(--main-color) !important;
-      }
-    }
-  }
-}
-
-// ImagePicker/ File-upload buttons
-.image-picker {
-  .glyphicon {
-    color: var(--dark-color) !important;
-    font-size: 400% !important;
-    margin-bottom: 2vh;
-  }
-  &--preview {
-    color: var(--black-color) !important;
-    background-color: var(--main-color) !important;
-    border: 1px solid !important;
-    border-color: var(--black-color) !important;
-    border-radius: 0 !important;
-  }
-}
-
-.file-upload--external {
-  .btn-primary {
-    background-color: var(--main-color) !important;
-    border-radius: 2px;
-    font-size: 1em !important;
-    color: var(--black-color);
-    border-color: var(--black-color) !important;
-    margin-top: 0px !important;
-  }
-}
-
-.file-upload--new {
-  .btn-secondary {
-    background-color: var(--main-color) !important;
-    font-size: 1em !important;
-    color: var(--black-color);
-  }
-}
-
-// ImageThumbnail
-.image-thumb {
-  &.selected {
-    border: 4px solid var(--black-color) !important;
-  }
-  .thumbnail {
-    background-color: var(--main-color) !important;
-    &:focus, &:hover {
-      border: 4px solid var(--main-color) !important;
-    }
-  }
-  .name {
-    .name-buttons {
-      .btn {
-        &:hover, &:focus {
-          background-color: var(--main-color) !important;
-      }
-      }
-    }
-  }
-}
-
-.no-image-text {
-  font-size: 1.25em !important;
-}
-// ImageEdit
-.image-edit-dialog {
-  .modal-header {
-    background-color: var(--black-color) !important;
-    .modal-title {
-      font-weight: bold !important;
-      color: var(--light-color)!important;
-    }
-    button {
-      .glyphicon {
-          color: var(--light-color) !important;
-      }
-    }
-  }
-  .tip {
-    background: var(--main-color) !important;
-    border: 1px solid !important;
-    color: var(--black-color) !important;
-    p {
-      color: var(--black-color) !important;
-    }
-  }
-}
-//ConfirmationModal app.js
-.ConfirmationModal {
-  .modal-header {
-    background-color: var(--black-color) !important;
-    .modal-title {
-      font-weight: bold !important;
-      color: var(--light-color)!important;
-    }
-    button {
-      .glyphicon {
-          color: var(--light-color) !important;
-      }
-    }
-  }
-  .modal-footer {
-    button {
-      background-color: var(--main-color) !important;
-      font-size: 1em !important;
-      color: var(--black-color);
-    }
-  }
 }
 
 // Formfields
 .btn-block {
-  color: var(--black-color) !important;
-  background-color: var(--main-color) !important;
-  margin-top: 20px !important;
-  font-size: 1em !important;
-  border-color: var(--black-color) !important;
-  border: 1px solid !important;
+    color: var(--light-color) !important;
+    background-color: var(--main-color) !important;
+    margin-top: 20px !important;
+    font-size: 1em !important;
+    border-color: var(--black-color) !important;
+    border: 1px solid !important;
 }
-.glyphicon {
-  margin-right: 20px;
+
+// React-Select Style Injection
+.css-yk16xz-control {
+    border-color: var(--black-color) !important;
+}
+.css-1pahdxg-control {
+    box-shadow: none !important;
+    border: solid 2px !important;
+    border-color: var(--main-color) !important;
 }
 
 .location-row {
-  .clipboard-copy-button {
-    display: none !important;
-  }
+    .clipboard-copy-button {
+        display: none !important;
+    }
 }
 
-@media (max-width:760px) {
-.location-row {
-  .clipboard-copy-button {
-    display: none !important;
-  }
+// Calendar Input Field Hover Effect
+.custom-date-input {
+    input {
+        &:hover,
+        &:focus,
+        &:active {
+            border-color: var(--main-color) !important;
+        }
+    }
 }
-.keyword-row {
-  .clipboard-copy-button {
-    display: none !important;
-  }
+
+// Calendar Date Select
+.react-datepicker__day--selected {
+    color: var(--light-color) !important;
+    background-color: var(--main-color) !important;
 }
+.react-datepicker__day--keyboard-selected {
+    color: var(--light-color) !important;
+    background-color: var(--main-color) !important;
 }
+
+// Search-bar
+.search-bar {
+    .event-input {
+        input {
+            outline: none !important;
+            border-bottom: solid 2px;
+            &:hover {
+                border-bottom: solid 3px;
+                border-color: var(--main-color) !important;
+            }
+            &:focus,
+            &:active {
+                border-bottom: solid 3px;
+                border-color: var(--main-color) !important;
+            }
+        }
+    }
+}
+
+// Image Preview
+.image-picker {
+    &--preview {
+        color: var(--black-color) !important;
+        background-color: var(--secondary-color) !important;
+        border: 1px solid !important;
+        border-color: var(--black-color) !important;
+        border-radius: 0 !important;
+    }
+}
+
+// ImageThumbnail
+.image-thumb {
+    &.selected {
+        border: 4px solid var(--black-color) !important;
+    }
+    .thumbnail {
+        background-color: var(--main-color) !important;
+        &:focus,
+        &:hover {
+            border: 4px solid var(--main-color) !important;
+        }
+    }
+    .name {
+        .name-buttons {
+            .btn {
+                &:hover,
+                &:focus {
+                    background-color: var(--main-color) !important;
+                }
+            }
+        }
+    }
+}
+
+.no-image-text {
+    font-size: 1.25em !important;
+}
+
+// ImageEdit
+.image-edit-dialog {
+    .modal-header {
+        background-color: var(--black-color) !important;
+        .modal-title {
+            font-weight: bold !important;
+            color: var(--light-color) !important;
+        }
+        button {
+            .glyphicon {
+                color: var(--light-color) !important;
+            }
+        }
+    }
+    .tip {
+        background: var(--secondary-color) !important;
+        border: 1px solid !important;
+        color: var(--black-color) !important;
+        p {
+            color: var(--black-color) !important;
+        }
+        a {
+            color: var(--black-color) !important;
+            text-decoration: underline !important;
+        }
+    }
+}
+
+// ConfirmationModal
+.ConfirmationModal {
+    .modal-header {
+        background-color: var(--black-color) !important;
+        .modal-title {
+            font-weight: bold !important;
+            color: var(--light-color) !important;
+        }
+        button {
+            .glyphicon {
+                color: var(--light-color) !important;
+            }
+        }
+    }
+    .modal-footer {
+        button {
+            background-color: var(--main-color) !important;
+            font-size: 1em !important;
+            color: var(--black-color);
+        }
+    }
+}
+
 // Helselect field
-.editor-page .hel-select legend,
-.editor-page .hel-select .legend {
-  font-size: 1.25em !important;
+.editor-page .hel-select legend {
+    font-size: 1.25em !important;
 }
 .place-id {
-  display: none;
-  margin-top: 20px !important;
-  input {
-    border: none !important;
-  }
+    display: none;
+    margin-top: 20px !important;
+    input {
+        border: none !important;
+    }
 }
-//DebugHelper
-#debughelper {
-  .glyphicon {
-    margin-right: 0px !important;
-  }
-}
+
+// Report Modal
 .debugreporterform {
-  .modal-header {
-    background-color: var(--black-color) !important;
-    align-items: center;
-    .modal-title {
-      font-weight: bold !important;
-      color: var(--light-color)!important;
+    .modal-header {
+        background-color: var(--black-color) !important;
+        align-items: center;
+        .modal-title {
+            font-weight: bold !important;
+            color: var(--light-color) !important;
+        }
     }
-  }
     .glyphicon {
-      color: var(--light-color) !important;
-  }
-  .modal-body {
-    #reportfield{
-      border: solid 2px;
-      border-radius: 3px;
-      &:hover {
-        border: solid 3px;
-        border-color: var(--main-color);
-      }
-      &:focus,
-      &:active {
-        border: solid 4px;
-        border-color: var(--main-color);
-      }
+        color: var(--light-color) !important;
     }
-  .btn {
-    background-color: var(--main-color) !important;
-    font-size: 1em !important;
-    color: var(--black-color);
-  }
+    .modal-body {
+        #reportfield {
+            border: solid 2px;
+            border-radius: 3px;
+            &:hover {
+                border: solid 3px;
+                border-color: var(--main-color);
+            }
+            &:focus,
+            &:active {
+                border: solid 4px;
+                border-color: var(--main-color);
+            }
+        }
+        .btn {
+            background-color: var(--main-color) !important;
+            font-size: 1em !important;
+            color: var(--light-color);
+        }
+    }
 }
-}
-// Recurring Event
-.recurringEvent {
-  .modal-header {
+
+// Modal Header & Body
+.modal-header {
     background-color: var(--black-color) !important;
     .modal-title {
-      font-weight: bold !important;
-      color: var(--light-color)!important;
+        font-weight: bold !important;
+        color: var(--light-color) !important;
     }
     button {
-      .glyphicon {
-        color: var(--light-color) !important;
-      }
+        .glyphicon {
+            color: var(--light-color) !important;
+        }
     }
-  }
-  .modal-body {
+}
+.modal-body {
+    .event-input {
+        label {
+            font-size: 1.2em !important;
+        }
+        input {
+            border-bottom: solid 2px;
+            &:hover {
+                border-bottom: solid 3px;
+                border-color: var(--main-color);
+            }
+            &:focus,
+            &:active {
+                border-bottom: solid 3px;
+                border-color: var(--main-color);
+            }
+        }
+    }
     .row-color {
-      background: var(--main-color) !important;
-      border: 1px solid var(--black-color) !important;
+        background: var(--main-color) !important;
+        border: 1px solid var(--black-color) !important;
     }
     .col-sm-12 {
-      h2 {
-        color: var(--black-color);
-      }
-      button {
-        background-color:var(--black-color) !important;
-        color: var(--light-color);
-        border: none;
-      }
+        button {
+            background-color: var(--black-color) !important;
+            color: var(--light-color);
+        }
     }
-  }
 }
 
 //Imagepicker modal
 .image-picker--dialog {
-  .modal-header {
-    background-color: var(--black-color)!important;
-    .glyphicon {
-      color: var(--light-color)!important;
-    }
-    .modal-title {
-      color: var(--light-color) !important;
-      font-weight: bold !important;
-    }
-  }
-  .modal-body {
     .modal-header {
-      background-color: var(--light-color) !important;
-      .modal-title {
-        color: var(--black-color) !important;
-        font-weight: normal !important;
-      }
+        background-color: var(--black-color) !important;
+        .glyphicon {
+            color: var(--light-color) !important;
+        }
+        .modal-title {
+            color: var(--light-color) !important;
+            font-weight: bold !important;
+        }
     }
-  }
+    .modal-body {
+        .modal-header {
+            background-color: var(--light-color) !important;
+            .modal-title {
+                color: var(--black-color) !important;
+                font-weight: normal !important;
+            }
+        }
+    }
 }
-//Preview Modal to check how event would look like while creating / editing
+
+// Preview Modal to check how event would look like while creating / editing
 .previewModal {
-  .modal-header {
-    background-color: var(--black-color)!important;
-      .modal-title {
-        color: var(--light-color) !important;
-      }
-      .glyphicon {
-        margin: 0px;
-        color: var(--light-color)!important;
-      }
+    .modal-header {
+        background-color: var(--black-color) !important;
+        .modal-title {
+            color: var(--light-color) !important;
+        }
+        .glyphicon {
+            margin: 0px;
+            color: var(--light-color) !important;
+        }
     }
     .modal-footer {
-      .btn-secondary {
-      background-color: var(--main-color) !important;
-      font-size: 1em !important;
-      color: var(--black-color);
+        .btn-secondary {
+            background-color: var(--main-color) !important;
+            font-size: 1em !important;
+            color: var(--black-color);
+        }
     }
-  }
 }
 
-// Multifield titles
+// Multifield Titles
 .multi-field {
-  position: relative;
-  margin-top: 2rem;
+    .indented {
+        border-left: 5px solid #d8f0ee !important;
+        & > label {
+            color: var(--black-color) !important;
+            font-size: 1.4em !important;
+            font-weight: 600;
+        }
+    }
+}
 
-  .indented {
-      padding: 3px 23px 11.5px 23px;
-      border-left: 5px solid #d8f0ee !important;
-
-      & > label {
-          color: var(--black-color) !important;
-          font-size: 1.4em !important;
-          font-weight: 600;
-      }
-  }
+// Mobile Styles
+@media (max-width: 760px) {
+    .keyword-row {
+        .clipboard-copy-button {
+            display: none !important;
+        }
+    }
 }
