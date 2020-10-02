@@ -35,6 +35,11 @@
         background-color: rgba($color: #404040, $alpha: 0.3) !important;
       }
     }
+    &.thumbnail {
+      &:hover, &:focus{
+        box-shadow: none !important;
+      }
+    }
   }
   .btn-primary {
     background-color: var(--main-color) !important;
