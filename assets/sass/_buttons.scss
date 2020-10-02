@@ -56,10 +56,10 @@
     color: var(--light-color);
     border-color: var(--black-color) !important;
     &:hover {
-      background-color: var(--darkgray-color) !important;
-    }
-    &:hover &:focus &:disabled {
-      color: var(--black-color) !important;
+      box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+      &:disabled {
+        background-color: rgba($color: #404040, $alpha: 0.3) !important;
+      }
     }
   }
 }
