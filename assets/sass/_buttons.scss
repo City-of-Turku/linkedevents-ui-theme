@@ -25,14 +25,14 @@
 .editor-page {
   .btn-secondary {
     background-color: var(--main-color) !important;
-    color: var(--light-color) !important;
+    color: var(--black-color) !important;
     &:disabled {
-      background: rgba($color: #252525, $alpha: 1.0) !important;
+      background: var(--main-color) !important;
     }
     &:hover {
-      background-color: var(--darkgray-color) !important;
+      box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
       &:disabled {
-        background-color: var(--black-color) !important;
+        background-color: rgba($color: #404040, $alpha: 0.3) !important;
       }
     }
   }
