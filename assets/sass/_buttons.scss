@@ -1,13 +1,23 @@
 // Event management page
 .event-actions {
   .btn-secondary {
-    display: inline;
     background-color: var(--main-color) !important;
-    color: var(--light-color);
-    border-color: var(--black-color) !important;
-    margin: 0.3vh;
+    color: var(--black-color) !important;
+    &:disabled {
+      background: var(--main-color) !important;
+    }
     &:hover {
-      background-color: var(--darkgray-color) !important;
+      box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+      &:disabled {
+        background-color: rgba($color: #404040, $alpha: 0.3) !important;
+      }
+    }
+  }
+  .btn-secondary, .btn-primary {
+    &.disabled{
+      &:hover {
+        background-color: rgba($color: #404040, $alpha: 0.2) !important;
+      }
     }
   }
 }
@@ -16,7 +26,7 @@
   .btn {
     &:hover,
     &:focus {
-      background-color: var(--red-color) !important;
+      background-color: rgba($color: #ff3d3d, $alpha: 0.9) !important;
     }
   }
 }
@@ -43,23 +53,10 @@
   }
   .btn-primary {
     background-color: var(--main-color) !important;
-    color: var(--light-color) !important;
-    border-color: var(--black-color) !important;
-    &:hover {
-      background-color: var(--darkgray-color) !important;
+    color: var(--black-color) !important;
+    &:disabled {
+      background: var(--main-color) !important;
     }
-    &:hover &:focus &:disabled {
-      color: var(--black-color) !important;
-    }
-  }
-}
-
-.buttons-group {
-  .btn-secondary {
-    display: inline;
-    background-color: var(--main-color) !important;
-    color: var(--light-color);
-    border-color: var(--black-color) !important;
     &:hover {
       box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
       &:disabled {
@@ -71,7 +68,7 @@
 
 // Calendar Button
 .custom-date-input__button {
-  color: var(--light-color) !important;
+  color: var(--black-color) !important;
   background-color: var(--main-color) !important;
 }
 
@@ -87,29 +84,18 @@
 
 // Search page
 .search-bar {
-  .btn-secondary {
-    &:hover {
-      background-color: var(--darkgray-color) !important;
-    }
-  }
   .event-input {
     .btn-primary {
       background-color: var(--main-color) !important;
-      margin-left: 18px;
-      height: 55px;
-      color: var(--light-color);
-      font-size: 1em;
-      &:focus {
-        box-shadow: none !important;
-      }
-      &:hover {
-        background-color: var(--darkgray-color) !important;
-      }
+      color: var(--black-color) !important;
+      border-color: #6c757d !important;
       &:disabled {
-        background-color: var(--black-color) !important;
-        color: var(--light-color) !important;
-        &:hover {
-          background-color: var(--darkgray-color) !important;
+        background: var(--main-color) !important;
+      }
+      &:hover, &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+        &:disabled {
+          background-color: rgba($color: #404040, $alpha: 0.3) !important;
         }
       }
     }

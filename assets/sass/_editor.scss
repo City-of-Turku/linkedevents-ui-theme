@@ -84,13 +84,23 @@
 }
 
 // Formfields
-.btn-block {
-    color: var(--light-color) !important;
-    background-color: var(--main-color) !important;
-    margin-top: 20px !important;
-    font-size: 1em !important;
-    border-color: var(--black-color) !important;
-    border: 1px solid !important;
+.file-upload-buttons {
+    .btn-block {
+        background-color: var(--main-color) !important;
+        color: var(--black-color) !important;
+        &:disabled {
+          background: var(--main-color) !important;
+        }
+        &:hover {
+          box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+          &:disabled {
+            background-color: rgba($color: #404040, $alpha: 0.3) !important;
+          }
+        }
+        &.btn-primary {
+            border-color: #6c757d !important;
+        }
+    }
 }
 
 // React-Select Style Injection
@@ -122,11 +132,11 @@
 
 // Calendar Date Select
 .react-datepicker__day--selected {
-    color: var(--light-color) !important;
+    color: var(--black-color) !important;
     background-color: var(--main-color) !important;
 }
 .react-datepicker__day--keyboard-selected {
-    color: var(--light-color) !important;
+    color: var(--black-color) !important;
     background-color: var(--main-color) !important;
 }
 
@@ -177,7 +187,7 @@
             .btn {
                 &:hover,
                 &:focus {
-                    background-color: var(--main-color) !important;
+                    background-color: var(--darkgray-color) !important;
                 }
             }
         }
@@ -317,15 +327,22 @@
             }
         }
     }
+    .btn-primary {
+        background-color: var(--main-color) !important;
+        color: var(--black-color) !important;
+        &:disabled {
+          background: var(--main-color) !important;
+        }
+        &:hover {
+          box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+          &:disabled {
+            background-color: rgba($color: #404040, $alpha: 0.3) !important;
+          }
+        }
+      }
     .row-color {
         background: var(--main-color) !important;
         border: 1px solid var(--black-color) !important;
-    }
-    .col-sm-12 {
-        button {
-            background-color: var(--black-color) !important;
-            color: var(--light-color);
-        }
     }
 }
 
@@ -353,7 +370,7 @@
 }
 
 // Preview Modal to check how event would look like while creating / editing
-.previewModal {
+/*.previewModal {
     .modal-header {
         background-color: var(--black-color) !important;
         .modal-title {
@@ -372,7 +389,7 @@
         }
     }
 }
-
+*/
 // Multifield Titles
 .multi-field {
     .indented {
