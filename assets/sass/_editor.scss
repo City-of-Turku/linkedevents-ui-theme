@@ -55,7 +55,6 @@
             }
             &:focus,
             &:active {
-                border: solid 1px !important;
                 border-bottom: solid 3px !important;
                 border-color: var(--main-color) !important;
             }
@@ -106,6 +105,9 @@
         }
         &.btn-primary {
             border-color: #6c757d !important;
+            &:active, &:focus {
+                box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5) !important;
+            }
         }
     }
 }
