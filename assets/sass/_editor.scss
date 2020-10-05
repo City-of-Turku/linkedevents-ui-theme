@@ -113,13 +113,12 @@
 }
 
 // React-Select Style Injection
-.css-yk16xz-control {
+.css-yk16xz-control, .css-qg19kw-control {
     border-color: var(--black-color) !important;
 }
-.css-1pahdxg-control {
-    box-shadow: none !important;
-    border: solid 2px !important;
-    border-color: var(--main-color) !important;
+.css-1pahdxg-control, .css-1bs8een-control {
+    border: none !important;
+    box-shadow: 0 0 0 2px #7dcdc8 !important;
 }
 
 .location-row {
@@ -339,6 +338,10 @@
     .btn-primary {
         background-color: var(--main-color) !important;
         color: var(--black-color) !important;
+        border-color: var(--darkgray-color) !important;
+        &:active, &:focus {
+            box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5) !important;
+        }
         &:disabled {
           background: var(--main-color) !important;
         }
