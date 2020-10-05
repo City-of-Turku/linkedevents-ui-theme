@@ -66,10 +66,10 @@
                 outline: solid 3px !important;
                 outline-color: var(--main-color) !important;
             }
-            &:focus
+            &:focus,
             &:active {
                 outline: solid 3px !important;
-                border-color: var(--main-color) !important;
+                outline-color: var(--main-color) !important;
             }
         }
     }
@@ -283,23 +283,36 @@
         color: var(--light-color) !important;
     }
     .modal-body {
-        #reportfield {
-            border: solid 2px !important;
-            border-radius: 3px !important;
+        .form-control {
+            &:focus {
+                box-shadow: none !important;
+            }
+        }
+        textarea {
+            border: none !important;
+            outline: solid 2px !important;
             &:hover {
-                border: solid 3px !important;
-                border-color: var(--main-color) !important;
+                outline: solid 3px !important;
+                outline-color: var(--main-color) !important;
             }
             &:focus,
             &:active {
-                border: solid 4px !important;
-                border-color: var(--main-color) !important;
+                outline: solid 3px !important;
+                outline-color: var(--main-color) !important;
             }
         }
         .btn {
             background-color: var(--main-color) !important;
-            font-size: 1em !important;
-            color: var(--light-color) !important;
+            color: var(--black-color) !important;
+            &:disabled {
+              background: var(--main-color) !important;
+            }
+            &:hover {
+                box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5) !important;
+                &:disabled {
+                    background-color: rgba($color: #404040, $alpha: 0.3) !important;
+                }
+            }
         }
     }
 }
