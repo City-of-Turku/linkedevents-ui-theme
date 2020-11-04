@@ -1,59 +1,53 @@
 // Main navbar
 .main-navbar .bar {
-	background: var(--black-color) !important;
-	height: 100px !important;
-	&__logo {
-		background-image: url('./images/linkedeventswhite.png') !important;
-		height: 80% !important;
-	}
-}
-
-.navbar {
-	.btn {
-		&:focus,
-		&:active {
-			border: solid 2px !important;
-			border-color: var(--light-color) !important;
-			background-color: var(--light-color);
-			color: var(--black-color) !important;
-			.glyphicon {
-				color: var(--black-color) !important;
-			}
-		}
-		&:hover {
-			border: solid 2px !important;
-			border-color: var(--light-color) !important;
-			background-color: var(--light-color) !important;
-			color: var(--black-color) !important;
-			.glyphicon {
-				color: var(--black-color) !important;
-			}
-		}
-	}
+    background: var(--black-color) !important;
+    height: 100px !important;
+    &__logo {
+        background-image: url('./images/linkedeventswhite.png') !important;
+        height: 80% !important;
+    }
+    .btn {
+        &:focus,
+        &:active {
+            background-color: var(--light-color) !important;
+            color: var(--black-color) !important;
+            .glyphicon {
+                color: var(--black-color) !important;
+            }
+        }
+        &:hover {
+            background-color: var(--light-color) !important;
+            color: var(--black-color) !important;
+            .glyphicon {
+                color: var(--black-color) !important;
+            }
+        }
+    }
 }
 
 .linked-events-bar {
-	background-color: var(--light-color) !important;
-	border-bottom: 1px solid !important;
-	&__logo {
-		span {
-			color: var(--black-color) !important;
-			font-size: 1em !important;
-		}
-	}
-	&__links {
-		.nav-item {
-			.moderator {
-				span {
+    background-color: var(--gray-color) !important;
+    border-bottom: rgba($color: #404040, $alpha: 0.75) 2px solid !important;
+    &__links {
+        .nav-item {
+            .nav-link {
+                &:focus,
+                &.active {
+					box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
+                    background-color: var(--light-color) !important;
 					color: var(--black-color) !important;
-				}
-			}
-		}
-		.create-events-button {
-			outline-color: var(--black-color) !important;
-			span {
-				color: var(--black-color) !important;
-			}
-		}
-	}
+					outline-color: var(--darkgray-color) !important;
+                }
+                &:hover {
+                    background-color: rgba($color: #fff, $alpha: 0.5) !important;
+					color: var(--black-color) !important;
+                }
+            }
+            .moderator {
+                span {
+                    color: var(--black-color) !important;
+                }
+            }
+        }
+    }
 }
