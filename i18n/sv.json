@@ -114,6 +114,10 @@
     "event-datetime-fields-header": "Evenemangets tidpunkter",
     "event-starting-datetime": "Evenemanget inleds (dd.mm.åååå tt.mm)",
     "event-ending-datetime": "Evenemanget avslutas (dd.mm.åååå tt.mm)",
+    "event-starting-datelabel": "Evenemanget inleds (dd.mm.åååå)",
+    "event-starting-timelabel": "Starttid (tt.mm)",
+    "event-ending-datelabel": "Evenemanget avslutas (dd.mm.åååå)",
+    "event-ending-timelabel": "Sluttid (tt.mm)",
     "event-add-new-occasion": "Lägg till en ny tidpunkt",
     "event-add-recurring": "Ett återkommande evenemang",
     "event-add-price":  "Lägg till en ny prisinformation",
@@ -283,8 +287,7 @@
     "editor-sentinel-alert": "Du kan granska blanketten men du har inte rättigheter att publicera eller redigera evenemangen. Du har inte loggat in eller din inloggning har föråldrats.",
     "editor-authorization-required": "Logga in först om du vill publicera ett evenemang.",
 
-    "editor-tip-time-start": "Skriv evenemangets inledningsdag och också inledningstid om evenemanget börjar på ett visst klockslag.",
-    "editor-tip-time-end": "Skriv också slutdatumet och sluttiden om evenemanget slutar vid ett visst klockslag.",
+    "editor-tip-time-start-end": "Ange datum och tider för evenemangets start och slut.",
     "editor-tip-time-multi": "Om evenemanget ordnas flera gånger kan du lägga till nya inledningstidpunkter för evenemanget. Om evenemanget är regelbundet återkommande kan du tillägga tidpunkterna med att välja Återkommande evenemang.",
     "editor-tip-time-delete": "Du kan stryka en överlopps tidpunkt med att välja papperskorgsymbolen bredvid tidpunkten.",
     "editor-tip-location": "Skriv i fältet evenemangplatsens namn eller gatuadress och välj rätt plats från listan.",
@@ -350,6 +353,7 @@
     "image-modal-view-terms-link-text": "villkoren och rekommendationer för tilläggandet av bilder.",
     "image-modal-save-button-text": "Spara uppgifterna",
     "error-message-has-been-sent": "Rapporten skickad lyckat, tack!",
+    "invalid-date-time-format": "Ange datum och tid i rätt format.",
     "invalid-date-format": "Datumets form är fel.",
     "invalid-time-format": "Tidens form är fel.",
 
