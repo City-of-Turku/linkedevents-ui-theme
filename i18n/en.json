@@ -110,6 +110,10 @@
     "event-datetime-fields-header": "Event times",
     "event-starting-datetime": "Event starts (dd.mm.yyyy hh.mm)",
     "event-ending-datetime": "Event ends (dd.mm.yyyy hh.mm)",
+    "event-starting-datelabel": "Event starts (dd.mm.yyyy)",
+    "event-starting-timelabel": "Starting time (hh.mm)",
+    "event-ending-datelabel": "Event ends (dd.mm.yyyy)",
+    "event-ending-timelabel": "Ending time (hh.mm)",
     "event-add-new-occasion": "Add new occasion",
     "event-add-recurring": "Recurring event",
     "event-add-price": "Add new price",
@@ -275,8 +279,7 @@
     "editor-sentinel-alert": "You can view the form, but you don't have the permission to publish or edit events. You are not logged in or your login has expired.",
     "editor-authorization-required": "You must be logged in to edit events.",
 
-    "editor-tip-time-start": "Enter the start date of the event and also the start time if the event starts at a specific time.",
-    "editor-tip-time-end": "Also enter the end date and end time if the event ends at a specific time.",
+    "editor-tip-time-start-end": "Enter dates and times for the start and end of the event.",
     "editor-tip-time-multi": "If the event is held more than once, you can add new times for the event. If the event is repeated regularly, you can add all times at once by selecting Recurring event.",
     "editor-tip-time-delete": "To delete an extra time, select the trash bin next to it.",
     "editor-tip-location": "Start typing the beginning of the name of the venue and then choose the correct place from the emerging list.",
@@ -342,6 +345,7 @@
     "image-modal-view-terms-link-text": "image terms and recommendations.",
     "image-modal-save-button-text": "Save image",
     "error-message-has-been-sent": "The error message has been sent. Thank you for reporting!",
+    "invalid-date-time-format": "Enter the date and time in the correct format.",
     "invalid-date-format": "Invalid date format",
     "invalid-time-format": "Invalid time format",
 
