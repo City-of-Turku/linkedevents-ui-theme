@@ -370,13 +370,13 @@
     "navbar.active": "Språket i bruk är Svenska",
 
     "skiplink-shortcut": "Så till innehållet",
-    "cookieBar.accept": "Godkänn",
+    "cookieBar.accept": "Acceptera alla cookies",
 
-    "cookieBar.decline.text": "Förkasta",
+    "cookieBar.decline.text": "Acceptera endast funktionella cookies",
     "cookieBar.decline.url": "https://www.google.fi/",
-    "cookieBar.description": "Vi använder webbkakor för att förbättra din användarupplevelse. Med att fortsätta användandet av Linked Events godkänner du användandet av webbkakor.",
-    "cookieBar.link.text": "Länk till regler om webbkakor",
-    "cookieBar.link.url": "https://www.google.fi/",
+    "cookieBar.description": "Vi använder cookies för att förbättra din användarupplevelse. Du kan acceptera funktionella (nödvändiga) cookies eller alla cookies, t.ex. besökarstatistik.",
+    "cookieBar.link.text": "Länk till Cookie Policy",
+    "cookieBar.link.url": "https://testilinkedevents.turku.fi/cookie-policy/info-sv.html",
     "organization-missing-message-contact1": "Matias Peltonen ",
 
     "search-no-results": "Inga resultat",
