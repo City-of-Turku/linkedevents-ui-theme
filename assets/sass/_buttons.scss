@@ -2,7 +2,7 @@
 .event-actions {
   .btn-secondary {
     background-color: var(--main-color) !important;
-    color: var(--black-color) !important;
+    color: var(--light-color) !important;
     &:disabled {
       background: var(--main-color) !important;
     }
@@ -33,10 +33,25 @@
 
 // Create event page
 .editor-page {
+  .row-header {
+    border-color: var(--main-color);
+    h2 {
+    color: var(--main-color);
+    }
+  }
+  .btn-collapse {
+      background-color: white;
+      color: #0062ae ;
+      .glyphicon {
+      }
+      &.error {
+      }
+  }
   .btn-secondary {
     background-color: var(--main-color) !important;
-    color: var(--black-color) !important;
+    color: var(--light-color) !important;
     border-color: var(--darkgray-color) !important;
+    font-weight: bold;
     &:disabled {
       background: var(--main-color) !important;
     }
@@ -72,7 +87,7 @@
 .modal-footer {
   .btn-secondary {
     background-color: var(--main-color) !important;
-    color: var(--black-color) !important;
+    color: var(--light-color) !important;
     border-color: var(--darkgray-color) !important;
     &:disabled {
       background: var(--main-color) !important;
@@ -88,7 +103,7 @@
 
 // Calendar Button
 .custom-date-input__button {
-  color: var(--black-color) !important;
+  color: var(--light-color) !important;
   background-color: var(--main-color) !important;
 }
 
@@ -103,7 +118,7 @@
   .event-input {
     .btn-primary {
       background-color: var(--main-color) !important;
-      color: var(--black-color) !important;
+      color: var(--light-color) !important;
       border-color: #6c757d !important;
       &:disabled {
         background: var(--main-color) !important;

@@ -1,8 +1,8 @@
 // Editor Page SCSS
 .editor-page {
     .highlighted-block {
-        background-color: var(--secondary-color) !important;
-        border: 1px solid !important;
+        //background-color: var(--secondary-color) !important;
+        //border: 1px solid !important;
         color: var(--black-color) !important;
         max-width: auto !important;
         line-height: inherit !important;
@@ -30,8 +30,8 @@
         }
     }
     .checkbox-group {
-        background-color: var(--secondary-color) !important;
-        border: 1px solid !important;
+        background-color: var(--light-color) !important;
+        //border: 1px solid !important;
         margin-top: 5px !important;
         margin-bottom: 30px !important;
         h2 {
@@ -80,7 +80,7 @@
     }
     .badge-primary {
         background-color: var(--main-color) !important;
-        color: var(--black-color) !important;
+        color: var(--light-color) !important;
         .btn {
             &:hover {
                 background-color: var(--gray-color) !important;
@@ -96,7 +96,7 @@
 .file-upload-buttons {
     .btn-block {
         background-color: var(--main-color) !important;
-        color: var(--black-color) !important;
+        color: var(--light-color) !important;
         &:disabled {
           background: var(--main-color) !important;
         }
@@ -121,7 +121,7 @@
 }
 .css-1pahdxg-control, .css-1bs8een-control {
     border: none !important;
-    box-shadow: 0 0 0 2px #7dcdc8 !important;
+    box-shadow: 0 0 0 2px var(--main-color) !important;
 }
 
 .location-row {
@@ -143,11 +143,11 @@
 
 // Calendar Date Select
 .react-datepicker__day--selected {
-    color: var(--black-color) !important;
+    color: var(--light-color) !important;
     background-color: var(--main-color) !important;
 }
 .react-datepicker__day--keyboard-selected {
-    color: var(--black-color) !important;
+    color: var(--light-color) !important;
     background-color: var(--main-color) !important;
 }
 
@@ -173,8 +173,8 @@
 // Image Preview
 .image-picker {
     &--preview {
-        color: var(--black-color) !important;
-        background-color: var(--secondary-color) !important;
+        color: var(--light-color) !important;
+        background-color: var(--main-color) !important;
         border: 1px solid !important;
         border-color: var(--black-color) !important;
         border-radius: 0 !important;
@@ -353,7 +353,7 @@
     }
     .btn-primary {
         background-color: var(--main-color) !important;
-        color: var(--black-color) !important;
+        color: var(--light-color) !important;
         border-color: var(--darkgray-color) !important;
         &:active, &:focus {
             box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5) !important;
@@ -369,8 +369,8 @@
         }
       }
     .row-color {
-        background: var(--main-color) !important;
-        border: 1px solid var(--black-color) !important;
+        background: var(--light-color) !important;
+        //border: 1px solid var(--main-color) !important;
     }
 }
 
