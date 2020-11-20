@@ -212,7 +212,7 @@
 // ImageEdit
 .image-edit-dialog {
     .modal-header {
-        background-color: var(--black-color) !important;
+        background-color: var(--main-color) !important;
         .modal-title {
             font-weight: bold !important;
             color: var(--light-color) !important;
@@ -240,7 +240,7 @@
 // ConfirmationModal
 .ConfirmationModal {
     .modal-header {
-        background-color: var(--black-color) !important;
+        background-color: var(--main-color) !important;
         .modal-title {
             font-weight: bold !important;
             color: var(--light-color) !important;
@@ -255,7 +255,7 @@
         button {
             background-color: var(--main-color) !important;
             font-size: 1em !important;
-            color: var(--black-color) !important;
+            color: var(--light-color) !important;
         }
     }
 }
@@ -275,7 +275,7 @@
 // Report Modal
 .debugreporterform {
     .modal-header {
-        background-color: var(--black-color) !important;
+        background-color: var(--main-color) !important;
         align-items: center !important;
         .modal-title {
             font-weight: bold !important;
@@ -306,7 +306,7 @@
         }
         .btn {
             background-color: var(--main-color) !important;
-            color: var(--black-color) !important;
+            color: var(--light-color) !important;
             &:disabled {
               background: var(--main-color) !important;
             }
@@ -322,7 +322,7 @@
 
 // Modal Header & Body
 .modal-header {
-    background-color: var(--black-color) !important;
+    background-color: var(--main-color) !important;
     .modal-title {
         font-weight: bold !important;
         color: var(--light-color) !important;
@@ -377,7 +377,7 @@
 //Imagepicker modal
 .image-picker--dialog {
     .modal-header {
-        background-color: var(--black-color) !important;
+        background-color: var(--main-color) !important;
         .glyphicon {
             color: var(--light-color) !important;
         }
