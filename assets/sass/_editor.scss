@@ -47,31 +47,29 @@
         label {
             font-size: 1.2em !important;
         }
-        input {
-            border-bottom: solid 2px !important;
+       /*
+       Change these if you want to customize inputs
+       input {
+
             &:hover {
-                border-bottom: solid 3px !important;
-                border-color: var(--main-color) !important;
+
             }
             &:focus,
             &:active {
-                border-bottom: solid 3px !important;
-                border-color: var(--main-color) !important;
+
             }
         }
         textarea {
-            border: none !important;
-            outline: solid 2px !important;
+
             &:hover {
-                outline: solid 3px !important;
-                outline-color: var(--main-color) !important;
+
+
             }
             &:focus,
             &:active {
-                outline: solid 3px !important;
-                outline-color: var(--main-color) !important;
+
             }
-        }
+        } */
     }
     .form-control {
         &:focus {
@@ -156,14 +154,14 @@
     .event-input {
         input {
             outline: none !important;
-            border-bottom: solid 2px !important;
+
             &:hover {
                 border-bottom: solid 3px !important;
                 border-color: var(--main-color) !important;
             }
             &:focus,
             &:active {
-                border-bottom: solid 3px !important;
+
                 border-color: var(--main-color) !important;
             }
         }
@@ -339,14 +337,11 @@
             font-size: 1.2em !important;
         }
         input {
-            border-bottom: solid 2px !important;
             &:hover {
-                border-bottom: solid 3px !important;
                 border-color: var(--main-color);
             }
             &:focus,
             &:active {
-                border-bottom: solid 3px !important;
                 border-color: var(--main-color) !important;
             }
         }

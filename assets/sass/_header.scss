@@ -26,8 +26,8 @@
 }
 
 .linked-events-bar {
-    background-color: var(--gray-color) !important;
-    border-bottom: rgba($color: #404040, $alpha: 0.75) 2px solid !important;
+    background-color: var(--light-color) !important;
+    border-bottom: var(--black-color) 2px solid !important;
     &__links {
         .nav-item {
             .nav-link {
