@@ -22,7 +22,6 @@
     }
     // Tip Styles
     .tip {
-        background: var(--light-color) !important;
         border: 2px solid var(--main-color) !important;
         color: var(--dark-color) !important;
         span {
@@ -404,11 +403,3 @@
     }
 }
 
-// Mobile Styles
-@media (max-width: 760px) {
-    .keyword-row {
-        .clipboard-copy-button {
-            display: none !important;
-        }
-    }
-}
