@@ -34,7 +34,16 @@ The events don’t need to be organised by the City of Turku and they don’t ne
 
 4. In the service, you can a) **search among all city events**, b) **browse, edit and delete events of your own organisation** and c) **add new events**. If the event is recurring, you can add all dates at once.
 
-### B. Adding an event
+### B. Organization IDs
+
+<br>
+
+1. **If your organization frequently publishes events** and / or by multiple individuals, we offer the ability to use organization-level IDs. This allows staff from the same organization to easily manage, enter, and publish events in the organization.
+
+2. **Contact us** by e-mail at <a href = "mailto: linkedevents@turku.fi">linkedevents@turku.fi</a> if you want to use organizational IDs.
+
+
+### C. Adding an event
 
 <br>
 
@@ -56,14 +65,14 @@ The events don’t need to be organised by the City of Turku and they don’t ne
 
  5.8 **You can also use a past event as a basis for a new event**. You can do this by opening the past event and selecting “Copy to draft”. You can see your own events in “Manage events”.
 
-### C. Error situations and suggestions
+### D. Error situations and suggestions
 
 <br>
 
 6. In error situations, you can send a message through the exclamation mark icon on the left side of the form. If you have suggestions for improvement or need advice, please contact <a class="underline" href="mailto:driveturku@turku.fi" rel="external">driveturku@turku.fi</a>.
 
 
-### D. Adding images into the interface
+### E. Adding images into the interface
 
 <br>
 

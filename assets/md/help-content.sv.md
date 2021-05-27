@@ -32,7 +32,15 @@ Grundligt ifylld information gör det enklare att hitta evenemanget och underlä
 
 4. I tjänsten kan man a) **söka bland alla evenemang i staden**, b) **bläddra, redigera och radera den egna organisationens evenemang** och c) **lägga till nya evenemang**. För återkommande evenemang kan alla datum fyllas i på en gång.
 
-### B. Lägga till evenemang
+### B. Organisationsbeteckning.
+
+<br>
+
+1. **Om din organisation ofta publicerar händelser**  och / eller av flera personer, erbjuder vi möjligheten att använda organisationsbeteckning på organisationsnivån. Detta gör det möjligt för personal från samma organisation att enkelt hantera, skriva in och publicera händelser i organisationen.
+
+2. **Kontakta oss** via e-post på <a href = "mailto: linkedevents@turku.fi">linkedevents@turku.fi</a> om du vill använda organisationsbeteckningar.
+
+### C. Lägga till evenemang
 
 <br>
 
@@ -54,14 +62,14 @@ Grundligt ifylld information gör det enklare att hitta evenemanget och underlä
 
  5.8 **Du kan också använda ett gammalt evenemang som botten för ett nytt evenemang**. Detta sker genom att välja ”Kopiera som botten till nytt evenemang”. Dina egna evenemang finns under Evenemangens inställningar.
 
-### C. Problemsituationer och förslag
+### D. Problemsituationer och förslag
 
 <br>
 
 6. Vid problemsituationer kan du skicka ett meddelande via utropsteckensikonen som finns till vänster i formuläret. Förbättringsidéer gällande användargränssnittet eller frågor kan skickas till adressen <a class="underline" href="mailto:driveturku@turku.fi" rel="external">driveturku@turku.fi</a>.
 
 
-### D. Lägga till bilder i gränssnittet
+### E. Lägga till bilder i gränssnittet
 
 <br>
 

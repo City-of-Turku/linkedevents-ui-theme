@@ -31,7 +31,15 @@ Huolella syötetyt tiedot helpottavat tapahtuman löytämistä ja tiedon käytt�
 
 4. Palvelussa voi a) **hakea kaikista kaupungin tapahtumista**, b) **selata, muokata ja poistaa oman organisaation tapahtumia** ja c) **lisätä uusia tapahtumia**. Toistuvan tapahtuman kaikki päivät voi lisätä samalla kertaa.
 
-### B. Tapahtuman lisääminen
+### B. Organisaatiotunnukset
+
+<br>
+
+1. **Jos organisaatiosi julkaisee usein tapahtumia ja/tai monen henkilön toimesta**, tarjoamme mahdollisuutta käyttää organisaatiotason tunnuksia. Tällöin saman organisaation henkilökunta voi helposti hallita, syöttää ja julkaista organisaation tapahtumia.
+   
+2. **Ota yhteyttä sähköpostitse** osoitteeseen <a href = "mailto: linkedevents@turku.fi">linkedevents@turku.fi</a> jos haluatte ottaa käyttöön organisaatiotunnukset.
+
+### C. Tapahtuman lisääminen
 
 <br>
 
@@ -53,14 +61,14 @@ Huolella syötetyt tiedot helpottavat tapahtuman löytämistä ja tiedon käytt�
 
  5.8 **Voit käyttää uuden tapahtuman pohjana myös vanhaa tapahtumaa**. Uuden tapahtuman tietojen pohjana voi käyttää vanhaa avaamalla tapahtuman ja valitsemalla "Kopioi uuden tapahtuman pohjaksi". Omat tapahtumat ovat Tapahtumien hallinnassa.
 
-### C. Virhetilanteet ja ehdotukset
+### D. Virhetilanteet ja ehdotukset
 
 <br>
 
 6. Virhetilanteissa voit lähettää viestin lomakkeen vasemmasta laidasta löytyvän huutomerkki-ikonin kautta. Parannusideoita käyttöliittymään tai neuvoa voi kysyä osoitteesta <a class="underline" href="mailto:driveturku@turku.fi" rel="external">driveturku@turku.fi</a>.
 
 
-### D. Kuvien lisääminen rajapintaan
+### E. Kuvien lisääminen rajapintaan
 
 <br>
 
