@@ -32,13 +32,13 @@ Grundligt ifylld information gör det enklare att hitta evenemanget och underlä
 
 4. I tjänsten kan man a) **söka bland alla evenemang i staden**, b) **bläddra, redigera och radera den egna organisationens evenemang** och c) **lägga till nya evenemang**. För återkommande evenemang kan alla datum fyllas i på en gång.
 
-### B. Organisationsbeteckning.
+### B. Organisationsidentifikation
 
 <br>
 
-1. **Om din organisation ofta publicerar händelser**  och / eller av flera personer, erbjuder vi möjligheten att använda organisationsbeteckning på organisationsnivån. Detta gör det möjligt för personal från samma organisation att enkelt hantera, skriva in och publicera händelser i organisationen.
+1. **Om din organisation ofta publicerar händelser**  och / eller av flera personer, erbjuder vi möjligheten att använda organisationsidentifikation. Detta gör det möjligt för personal från samma organisation att enkelt hantera, skriva in och publicera händelser i organisationen.
 
-2. **Kontakta oss** via e-post på <a href = "mailto: linkedevents@turku.fi">linkedevents@turku.fi</a> om du vill använda organisationsbeteckningar.
+2. **Kontakta oss** via e-post på <a href = "mailto: linkedevents@turku.fi">linkedevents@turku.fi</a> om du vill använda organisationsidentifikation.
 
 ### C. Lägga till evenemang
 
