@@ -1,6 +1,6 @@
 
 
-# # What is Linked Events?
+# What is Linked Events?
 
 
 -----
