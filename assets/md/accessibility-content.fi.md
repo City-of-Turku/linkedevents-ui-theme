@@ -1,14 +1,26 @@
 
 # Turun kaupungin Linked Events -saavutettavuusseloste
 
-Tämä saavutettavuusseloste koskee Linked Events -palvelua (https://testilinkedevents.turku.fi/) ja on laadittu 28.7.2020.
+Tämä saavutettavuusseloste koskee Linked Events -palvelua (https://testilinkedevents.turku.fi/) ja on päivitetty 6.5.2022.
+
 
 ## Digipalvelun saavutettavuuden tila
-Täyttää kriittiset saavutettavuusvaatimukset
+Tämä verkkopalvelu täyttää Verkkosisällön saavutettavuusohjeiden (WCAG)
+2.1 tason AA vaatimukset osittain.
 
 -----
 
 ## Digipalvelun ei-saavutettava sisältö (WCAG-kriteerien mukaan)
+
+Verkkopalvelun saavutettavuuteen liittyvät korjaukset ovat tällä hetkellä
+käynnissä, ja niiden arvioidaan valmistuvan 31.5.2022 mennessä.
+
+Saavutettavuuspuutteita on mm. sivujen otsikkorakenteessa, kontrasteissa,
+interaktiivisten elementtien saavutettavissa nimissä,
+näppäimistönavigoinnissa, lomakkeen virheilmoituksissa, lomakekenttien
+ohjeissa ja lomakeryhmien merkkaamisessa.
+
+
 ### Ei kuulu lainsäädännön piiriin
 Karttamuotoinen tieto ei ole täysin saavutettava, mutta karttaupotuksen olemassaolo ei haittaa muuta käyttöä ja osoitetiedot on esitetty myös tekstimuodossa. Lainsäädäntö saavutettavuudesta ei koske karttasisältöjä.
 
@@ -25,7 +37,7 @@ Kerro se meille ja teemme parhaamme puutteen korjaamiseksi.
 <a href="https://opaskartta.turku.fi/eFeedback/fi/Feedback/30-S%C3%A4hk%C3%B6iset%20asiointipalvelut" target="_blank">Siirry palautepalvelun verkkolomakkeelle</a>
 
 ### Anna palautetta sähköpostilla:
-varaamo@turku.fi
+<a href="mailto: linkedevents@turku.fi">linkedevents@turku.fi</a>
 
 ### Valvontaviranomainen
 
