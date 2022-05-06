@@ -1,7 +1,7 @@
 
 # Turun kaupungin Linked Events -saavutettavuusseloste
 
-Tämä saavutettavuusseloste koskee Linked Events -palvelua (https://testilinkedevents.turku.fi/) ja on päivitetty 6.5.2022.
+Tämä saavutettavuusseloste koskee Linked Events -palvelua (https://linkedevents.turku.fi/) ja on päivitetty 6.5.2022.
 
 
 ## Digipalvelun saavutettavuuden tila
