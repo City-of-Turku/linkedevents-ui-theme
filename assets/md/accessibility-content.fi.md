@@ -20,7 +20,6 @@ interaktiivisten elementtien saavutettavissa nimissä,
 näppäimistönavigoinnissa, lomakkeen virheilmoituksissa, lomakekenttien
 ohjeissa ja lomakeryhmien merkkaamisessa.
 
-
 ### Ei kuulu lainsäädännön piiriin
 Karttamuotoinen tieto ei ole täysin saavutettava, mutta karttaupotuksen olemassaolo ei haittaa muuta käyttöä ja osoitetiedot on esitetty myös tekstimuodossa. Lainsäädäntö saavutettavuudesta ei koske karttasisältöjä.
 
@@ -37,6 +36,7 @@ Kerro se meille ja teemme parhaamme puutteen korjaamiseksi.
 <a href="https://opaskartta.turku.fi/eFeedback/fi/Feedback/30-S%C3%A4hk%C3%B6iset%20asiointipalvelut" target="_blank">Siirry palautepalvelun verkkolomakkeelle</a>
 
 ### Anna palautetta sähköpostilla:
+
 <a href="mailto: linkedevents@turku.fi">linkedevents@turku.fi</a>
 
 ### Valvontaviranomainen
