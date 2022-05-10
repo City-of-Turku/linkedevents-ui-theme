@@ -1,13 +1,23 @@
 // Event management page
 .event-actions {
   .btn-secondary {
-    display: inline;
     background-color: var(--main-color) !important;
-    color: var(--black-color);
-    border-color: var(--black-color) !important;
-    margin: 0.3vh;
+    color: var(--light-color) !important;
+    &:disabled {
+      background: var(--main-color) !important;
+    }
     &:hover {
-      background-color: var(--light-color) !important;
+      box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5) !important;
+      &:disabled {
+        background-color: rgba($color: #404040, $alpha: 0.3) !important;
+      }
+    }
+  }
+  .btn-secondary, .btn-primary {
+    &.disabled{
+      &:hover {
+        background-color: rgba($color: #404040, $alpha: 0.2) !important;
+      }
     }
   }
 }
@@ -16,51 +26,104 @@
   .btn {
     &:hover,
     &:focus {
-      background-color: var(--danger-color) !important;
+      background-color: rgba($color: #ff3d3d, $alpha: 0.9) !important;
     }
   }
 }
 
 // Create event page
-.buttons-group {
+.editor-page {
+  .row-header {
+    border-color: var(--main-color);
+    h2 {
+    color: var(--main-color);
+    }
+  }
+  .btn-collapse {
+      background-color: white;
+      color: #0062ae ;
+  }
   .btn-secondary {
-    display: inline;
     background-color: var(--main-color) !important;
-    color: var(--black-color);
-    border-color: var(--black-color) !important;
-    margin: 0.3vh;
+    color: var(--light-color) !important;
+    border-color: var(--darkgray-color) !important;
+    font-weight: bold;
+    &:disabled {
+      background: var(--main-color) !important;
+    }
     &:hover {
-      background-color: var(--light-color) !important;
+      box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5) !important;
+      &:disabled {
+        background-color: rgba($color: #404040, $alpha: 0.3) !important;
+      }
+    }
+    &.thumbnail {
+      &:hover, &:focus{
+        box-shadow: none !important;
+      }
+    }
+  }
+  .btn-primary {
+    background-color: var(--main-color) !important;
+    color: var(--black-color) !important;
+    border-color: var(--darkgray-color) !important;
+    &:disabled {
+      background: var(--main-color) !important;
+    }
+    &:hover {
+      box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5) !important;
+      &:disabled {
+        background-color: rgba($color: #404040, $alpha: 0.3) !important;
+      }
+    }
+  }
+}
+
+// Preview Modal to check how event would look like while creating / editing
+.modal-footer {
+  .btn-secondary {
+    background-color: var(--main-color) !important;
+    color: var(--light-color) !important;
+    border-color: var(--darkgray-color) !important;
+    &:disabled {
+      background: var(--main-color) !important;
+    }
+    &:hover {
+      box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5) !important;
+      &:disabled {
+        background-color: rgba($color: #404040, $alpha: 0.3) !important;
+      }
     }
   }
 }
 
 // Calendar Button
 .custom-date-input__button {
-  color: var(--black-color) !important;
+  color: var(--light-color) !important;
   background-color: var(--main-color) !important;
 }
 
-// Copy buttons
+// Copy to clipboard button
 .clipboard-copy-button {
-  padding: 3px;
-  border-radius: 0px;
-  margin-right: -25px;
-  border-style: 1px solid !important;
   box-shadow: none !important;
-  top: 43px !important;
 }
 
 // Search page
-.search-bar--input {
-  .btn {
-    background-color: var(--main-color) !important;
-    margin-left: 18px;
-    height: 55px;
-    border-radius: 2px;
-    color: var(--black-color);
-    border-color: var(--black-color) !important;
-    border: 1px solid !important;
-    font-size: 1em;
+.search-bar {
+  .event-input {
+    .btn-primary {
+      background-color: var(--main-color) !important;
+      color: var(--light-color) !important;
+      border-color: #6c757d !important;
+      &:disabled {
+        background: var(--main-color) !important;
+      }
+      &:hover, &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+        &:disabled {
+          background-color: rgba($color: #404040, $alpha: 0.3) !important;
+        }
+      }
+    }
   }
 }
