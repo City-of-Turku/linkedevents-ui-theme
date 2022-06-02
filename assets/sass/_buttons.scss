@@ -3,7 +3,7 @@
   .btn-secondary {
     background-color: var(--main-color) !important;
     color: var(--light-color) !important;
-    &:disabled {
+    &.disabled {
       background: var(--main-color) !important;
     }
     &:hover {
@@ -23,10 +23,12 @@
 }
 
 .cancel-delete-btn {
-  .btn {
-    &:hover,
-    &:focus {
-      background-color: rgba($color: #ff3d3d, $alpha: 0.9) !important;
+  .editor {
+    &-delete-button, &-cancel-button, &-postpone-button {
+      &:hover,
+      &:focus {
+        background-color: var(--red-color) !important;
+      }
     }
   }
 }
