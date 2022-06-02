@@ -36,10 +36,6 @@
         h2 {
             font-size: 1.5em !important;
         }
-        legend {
-            font-size: 1em !important;
-            font-family: inherit !important;
-        }
     }
     // Input Field Styles
     .event-input {
@@ -246,6 +242,12 @@
             .glyphicon {
                 color: var(--light-color) !important;
             }
+        }
+    }
+    .btn-danger {
+        background-color: var(--red-color) !important;
+        &:hover, &:focus {
+            box-shadow: 0 0 0 0.2rem rgb(130 138 145 / 50%) !important;
         }
     }
 }
