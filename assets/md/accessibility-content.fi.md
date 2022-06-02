@@ -1,7 +1,7 @@
 
 # Turun kaupungin Linked Events -saavutettavuusseloste
 
-Tämä saavutettavuusseloste koskee Linked Events -palvelua (https://linkedevents.turku.fi/) ja on päivitetty 6.5.2022.
+Tämä saavutettavuusseloste koskee Linked Events -palvelua (https://linkedevents.turku.fi/) ja on päivitetty 2.6.2022.
 
 
 ## Digipalvelun saavutettavuuden tila
@@ -13,7 +13,7 @@ Tämä verkkopalvelu täyttää Verkkosisällön saavutettavuusohjeiden (WCAG)
 ## Digipalvelun ei-saavutettava sisältö (WCAG-kriteerien mukaan)
 
 Verkkopalvelun saavutettavuuteen liittyvät korjaukset ovat tällä hetkellä
-käynnissä, ja niiden arvioidaan valmistuvan 31.5.2022 mennessä.
+käynnissä, ja niiden arvioidaan valmistuvan 23.6.2022 mennessä.
 
 Saavutettavuuspuutteita on mm. sivujen otsikkorakenteessa, kontrasteissa,
 interaktiivisten elementtien saavutettavissa nimissä,
